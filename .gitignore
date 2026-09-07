@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# 本地浏览器配置（Playwright 启动浏览器产生的用户数据）
+.browser_profile/
+
+# Claude Code 本地配置
+.claude/
+
+# 脚本运行结果（由 fetch_offer_list_*.py 生成）
+bbb.txt

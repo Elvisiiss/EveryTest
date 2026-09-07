@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<style>
+  body { width: 520px; margin: 0; font-family: "Microsoft YaHei", sans-serif; font-size: 13px; color: #222; }
+  header { padding: 10px 14px; background: #1a2733; color: #fff; }
+  header h1 { margin: 0; font-size: 15px; font-weight: 600; }
+  .status { padding: 10px 14px; background: #f5f7fa; border-bottom: 1px solid #e3e8ee; }
+  .status .row { margin: 3px 0; }
+  .ok { color: #1b7f3b; font-weight: 600; }
+  .err { color: #c62828; font-weight: 600; }
+  .tools { padding: 8px 14px; display: flex; gap: 8px; }
+  button { padding: 5px 12px; border: 1px solid #c8d1dc; border-radius: 4px; background: #fff; cursor: pointer; }
+  button:hover { background: #eef2f7; }
+  #changes { max-height: 380px; overflow-y: auto; }
+  table { width: 100%; border-collapse: collapse; }
+  th, td { padding: 6px 8px; border-bottom: 1px solid #edf0f4; text-align: left; vertical-align: top; }
+  th { position: sticky; top: 0; background: #f5f7fa; font-weight: 600; }
+  td.time { white-space: nowrap; color: #666; font-size: 12px; }
+  td.title { max-width: 190px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .up { color: #c62828; font-weight: 600; }
+  .down { color: #1b7f3b; font-weight: 600; }
+  .muted { color: #888; }
+  .empty { padding: 24px; text-align: center; color: #888; }
+</style>
+</head>
+<body>
+<header><h1>1688 旺铺商品列表监控</h1></header>
+<div class="status" id="status">加载中 ...</div>
+<div class="tools">
+  <button id="btnCheck">立即检查</button>
+  <button id="btnClear">清空变化记录</button>
+  <span id="checkResult" class="muted"></span>
+</div>
+<div id="changes"></div>
+<script src="popup.js"></script>
+</body>
+</html>

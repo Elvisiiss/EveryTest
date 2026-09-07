@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "1688 旺铺商品列表监控",
+  "version": "1.0.0",
+  "description": "每5分钟轮询 mtop.1688.pc.plugin.shop.offerList.query 接口, 对比快照, 记录商品变化(价格/销量/预定量等)及时间",
+  "minimum_chrome_version": "102",
+  "permissions": [
+    "alarms",
+    "storage",
+    "cookies",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://h5api.m.1688.com/*",
+    "https://www.1688.com/*",
+    "https://detail.1688.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "1688 商品监控"
+  }
+}
