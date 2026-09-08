@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "API 抓取工具（临时）",
+  "version": "1.0.0",
+  "description": "监听 aaa.txt 之类的 API 请求：原样重发验证 → 翻页重发验证 → 全量抓取并导出 xlsx",
+  "permissions": ["webRequest", "downloads", "storage"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "API 抓取工具",
+    "default_popup": "popup.html"
+  }
+}
