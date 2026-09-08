@@ -8,12 +8,15 @@
     "alarms",
     "storage",
     "cookies",
-    "scripting"
+    "scripting",
+    "webRequest",
+    "debugger"
   ],
   "host_permissions": [
     "https://h5api.m.1688.com/*",
     "https://www.1688.com/*",
-    "https://detail.1688.com/*"
+    "https://detail.1688.com/*",
+    "http://127.0.0.1:18999/*"
   ],
   "background": {
     "service_worker": "background.js"

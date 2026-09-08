@@ -16,9 +16,17 @@ const MD5_SELF_TEST = md5(
   '{"memberId":"b2b-319033927380e11","sortType":"wangpu_score","pageNum":1,"pageSize":300}'
 ) === "0c341bc9e34c648c0a45cfdd24007d05";
 
-chrome.runtime.onInstalled.addListener(() => { schedule(); check(); });
-chrome.runtime.onStartup.addListener(() => { schedule(); check(); });
-chrome.alarms.onAlarm.addListener((a) => { if (a.name === "poll") check(); });
+function attachToExistingTabs() {
+  chrome.tabs.query({ url: "https://detail.1688.com/*" }, (tabs) => {
+    for (const t of tabs || []) {
+      if (t.id != null) attachDebugger(t.id);
+    }
+  });
+}
+
+chrome.runtime.onInstalled.addListener(() => { schedule(); check(); pushSessionToMonitor(); attachToExistingTabs(); });
+chrome.runtime.onStartup.addListener(() => { schedule(); check(); pushSessionToMonitor(); attachToExistingTabs(); });
+chrome.alarms.onAlarm.addListener((a) => { if (a.name === "poll") { check(); pushSessionToMonitor(); } });
 
 chrome.runtime.onMessage.addListener((msg, sender, sendResponse) => {
   if (msg && msg.type === "CHECK_NOW") { check().then((r) => sendResponse(r)); return true; }
@@ -31,6 +39,224 @@ chrome.runtime.onMessage.addListener((msg, sender, sendResponse) => {
 
 function schedule() {
   chrome.alarms.create("poll", { periodInMinutes: POLL_MINUTES });
+}
+
+// ---------------- 会话情报: 旁听插件密钥 + 推送本机巡检程序 ----------------
+// 插件(1688 官方插件)发出的 offerList 请求带有效密钥, 且与本浏览器会话绑定。
+// 本扩展与插件同 profile, 通过 webRequest 旁听拿到最新密钥,
+// 连同实时 cookie 一起推送给本机巡检程序(127.0.0.1:18999/session),
+// 巡检程序即可用与浏览器完全一致的凭据直连接口。
+const LOCAL_SERVER = "http://127.0.0.1:18999";
+let lastSecretPush = 0;
+
+chrome.webRequest.onSendHeaders.addListener(
+  (details) => {
+    const isOffer = details.url.toLowerCase().includes("offerlist");
+    const h = (details.requestHeaders || []).find(
+      (x) => x.name && x.name.toLowerCase() === "x-1688extension-secret");
+    chrome.storage.local.get(["h5apiSeen", "h5apiWithSecret", "offerlistSeen", "offerlistWithSecret", "offerlistSamples"]).then((st) => {
+      const patch = {
+        h5apiSeen: (st.h5apiSeen || 0) + 1,
+        h5apiWithSecret: (st.h5apiWithSecret || 0) + (h && h.value ? 1 : 0),
+      };
+      if (isOffer) {
+        const samples = (st.offerlistSamples || []).slice(-4);
+        samples.push({
+          ts: Date.now(),
+          url: details.url.slice(0, 900),
+          hasSecret: !!(h && h.value),
+          headerNames: (details.requestHeaders || []).map((x) => x.name).slice(0, 40),
+        });
+        patch.offerlistSeen = (st.offerlistSeen || 0) + 1;
+        patch.offerlistWithSecret = (st.offerlistWithSecret || 0) + (h && h.value ? 1 : 0);
+        patch.offerlistSamples = samples;
+      }
+      chrome.storage.local.set(patch);
+    });
+    if (h && h.value) {
+      chrome.storage.local.set({ learnedSecret: h.value, learnedSecretTs: Date.now() });
+      const now = Date.now();
+      if (now - lastSecretPush > 30000) {
+        lastSecretPush = now;
+        pushSessionToMonitor();
+      }
+    }
+  },
+  { urls: ["https://h5api.m.1688.com/*"] },
+  ["requestHeaders"]
+);
+
+// ---------------- CDP 调试器捕获(拿到 DNR 注入后的真实请求头与响应体) ----------------
+// 插件密钥经 DNR 会话规则注入, webRequest 看不到; CDP(DevTools 协议)能看到最终发送的头。
+// 附加到详情页标签后, 捕获插件 offerlist 请求的真实密钥与响应数据, 转发给本机程序。
+const DEBUGGED_TABS = new Map();   // tabId -> 附加时间
+const PENDING_BODY = new Map();    // requestId -> url
+const CDP_ATTACH_MS = 3 * 60 * 1000;
+
+function cdpLog(line) {
+  chrome.storage.local.get("cdpLog").then((st) => {
+    const arr = (st.cdpLog || []).slice(-19);
+    arr.push({ ts: Date.now(), line: String(line).slice(0, 300) });
+    chrome.storage.local.set({ cdpLog: arr });
+  });
+}
+
+chrome.tabs.onUpdated.addListener((tabId, info, tab) => {
+  if (info.status === "complete" && tab && tab.url && tab.url.startsWith("https://detail.1688.com")) {
+    attachDebugger(tabId);
+  }
+});
+
+function attachDebugger(tabId) {
+  if (DEBUGGED_TABS.has(tabId)) return;
+  chrome.debugger.attach({ tabId }, "1.3", () => {
+    if (chrome.runtime.lastError) {
+      cdpLog("附加失败: " + chrome.runtime.lastError.message);
+      return;
+    }
+    chrome.debugger.sendCommand({ tabId }, "Network.enable", {}, () => {
+      DEBUGGED_TABS.set(tabId, Date.now());
+      cdpLog("CDP 已附加到标签 " + tabId + " (3分钟后自动解除)");
+      setTimeout(() => detachDebugger(tabId), CDP_ATTACH_MS);
+      pushSessionToMonitor();
+    });
+  });
+}
+
+function detachDebugger(tabId) {
+  if (!DEBUGGED_TABS.has(tabId)) return;
+  DEBUGGED_TABS.delete(tabId);
+  chrome.debugger.detach({ tabId }, () => {});
+  cdpLog("CDP 已从标签 " + tabId + " 解除");
+}
+
+chrome.debugger.onEvent.addListener((source, method, params) => {
+  if (!source.tabId || !DEBUGGED_TABS.has(source.tabId)) return;
+  if (method === "Network.requestWillBeSent") {
+    const url = params.request && params.request.url ? params.request.url : "";
+    const headers = (params.request && params.request.headers) || {};
+    // 捕获插件所有相关请求: offerlist / 插件后端 / 其他 h5api 调用
+    if (url.toLowerCase().includes("offerlist.query")) {
+      const secret = headers["x-1688extension-secret"] || headers["X-1688extension-Secret"];
+      if (secret) {
+        chrome.storage.local.set({ learnedSecret: secret, learnedSecretTs: Date.now() });
+        cdpLog("CDP 学到插件密钥: " + secret.slice(0, 16) + "...");
+        const now = Date.now();
+        if (now - lastSecretPush > 30000) {
+          lastSecretPush = now;
+          pushSessionToMonitor();
+        }
+      } else {
+        cdpLog("offerlist 无密钥头 | Referer=" + (headers["Referer"] || headers["referer"] || "-")
+               + " | 头名: " + Object.keys(headers).slice(0, 40).join(","));
+      }
+      PENDING_BODY.set(params.requestId, url);
+    } else if (/alibaba-inc\.com|creep|anti|token/i.test(url)) {
+      cdpLog("疑似插件后端请求: " + url.slice(0, 200));
+      PENDING_BODY.set(params.requestId, url);
+    } else if (url.includes("h5api.m.1688.com") && /mtop\.1688\.pc\.plugin\./i.test(url)) {
+      // 插件抽屉的新版私有接口(od.data.query 等), 记录完整 URL 与响应体
+      cdpLog("plugin接口请求: " + url.slice(0, 600));
+      PENDING_BODY.set(params.requestId, url);
+    }
+  } else if (method === "Network.responseReceived") {
+    if (!PENDING_BODY.has(params.requestId)) return;
+    const url = PENDING_BODY.get(params.requestId);
+    if (params.response && params.response.status === 200) {
+      chrome.debugger.sendCommand(
+        { tabId: source.tabId },
+        "Network.getResponseBody",
+        { requestId: params.requestId },
+        (r) => {
+          PENDING_BODY.delete(params.requestId);
+          if (!r || !r.body) return;
+          if (url.toLowerCase().includes("offerlist.query")) {
+            try {
+              const j = JSON.parse(r.body);
+              const ret = j && j.ret ? j.ret[0] : "?";
+              if (j && j.ret && j.ret[0] === "SUCCESS::调用成功" && j.data && j.data.simpleOfferModelList) {
+                cdpLog("插件 offerlist 响应成功, 商品 " + j.data.simpleOfferModelList.length + " 条, 已转发本机程序");
+                forwardOfferlist({ all: j.data.simpleOfferModelList, offerCount: j.data.offerCount });
+              } else {
+                cdpLog("插件 offerlist 响应: ret=" + String(ret).slice(0, 100));
+              }
+            } catch (e) {
+              cdpLog("插件 offerlist 响应非 JSON: " + r.body.slice(0, 120));
+            }
+          } else if (/mtop\.1688\.pc\.plugin\./i.test(url)) {
+            cdpLog("plugin接口响应: " + r.body.slice(0, 400));
+          } else {
+            cdpLog("后端响应体: " + r.body.slice(0, 250));
+          }
+        }
+      );
+    } else {
+      PENDING_BODY.delete(params.requestId);
+    }
+  }
+});
+
+// 插件后端的 token 请求若由插件 service worker 发起, 标签级 CDP 看不到,
+// 用全量 webRequest 兜底捕获
+chrome.webRequest.onSendHeaders.addListener(
+  (details) => {
+    if (/alibaba-inc\.com|creep|anti|token/i.test(details.url)) {
+      cdpLog("webRequest 后端请求: " + details.url.slice(0, 200));
+    }
+  },
+  { urls: ["<all_urls>"] },
+  ["requestHeaders"]
+);
+
+async function forwardOfferlist(outcome) {
+  // 检查成功后, 把全量商品数据转发给本机巡检程序(持久化由程序负责)
+  try {
+    await fetch(`${LOCAL_SERVER}/offerlist`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ simpleOfferModelList: outcome.all, offerCount: outcome.offerCount }),
+    });
+    console.log("巡检数据已转发给本机程序 (商品", outcome.all.length, "条)");
+  } catch (e) {
+    // 本机巡检程序未运行, 忽略
+  }
+}
+
+async function pushSessionToMonitor() {
+  try {
+    const stored = await chrome.storage.local.get([
+      "learnedSecret", "h5apiSeen", "h5apiWithSecret",
+      "offerlistSeen", "offerlistWithSecret", "offerlistSamples", "cdpLog",
+    ]);
+    // 两种方式收集 cookie 并合并, 确保覆盖 _m_h5_tk 的域名作用域
+    const c1 = await chrome.cookies.getAll({ domain: "1688.com" });
+    const c2 = await chrome.cookies.getAll({ url: "https://h5api.m.1688.com/" });
+    const map = new Map();
+    for (const c of [...c1, ...c2]) map.set(c.name, c.value);
+    const cookieStr = [...map.entries()].map(([k, v]) => `${k}=${v}`).join("; ");
+    await fetch(`${LOCAL_SERVER}/session`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        secret: stored.learnedSecret || "",
+        cookie: cookieStr,
+        diag: {
+          h5apiSeen: stored.h5apiSeen || 0,
+          h5apiWithSecret: stored.h5apiWithSecret || 0,
+          hasMh5tk: map.has("_m_h5_tk"),
+          offerlistSeen: stored.offerlistSeen || 0,
+          offerlistWithSecret: stored.offerlistWithSecret || 0,
+          offerlistSamples: stored.offerlistSamples || [],
+          cdpLog: stored.cdpLog || [],
+        },
+      }),
+    });
+    console.log("会话信息已推送给本机巡检程序 (cookie", map.size, "个, _m_h5_tk:", map.has("_m_h5_tk"),
+                ", h5api请求:", stored.h5apiSeen || 0, ", 带密钥:", stored.h5apiWithSecret || 0,
+                ", offerlist请求:", stored.offerlistSeen || 0, ", 其中带密钥:", stored.offerlistWithSecret || 0, ")");
+  } catch (e) {
+    // 本机巡检程序未运行或不可达, 忽略
+  }
 }
 
 async function buildUrl(pageNum) {
@@ -47,10 +273,13 @@ async function buildUrl(pageNum) {
   return BASE_URL + "?" + p.toString();
 }
 
-// 后台直连(带本浏览器 cookie; 1688 插件若在网络层注入密钥则直接可用)
+// 后台直连(带本浏览器 cookie; 若已旁听到插件密钥则一并带上)
 async function fetchPageDirect(pageNum) {
   const url = await buildUrl(pageNum);
-  const resp = await fetch(url, { credentials: "include", headers: { accept: "*/*" } });
+  const stored = await chrome.storage.local.get("learnedSecret");
+  const headers = { accept: "*/*" };
+  if (stored.learnedSecret) headers["x-1688extension-secret"] = stored.learnedSecret;
+  const resp = await fetch(url, { credentials: "include", headers });
   return { status: resp.status, body: await resp.text() };
 }
 
@@ -217,6 +446,10 @@ async function check() {
   try {
     const outcome = await collectAll();
     const meta = await compareAndStore(outcome);
+    if (outcome.ok) {
+      forwardOfferlist(outcome);
+      pushSessionToMonitor();
+    }
     return { ok: outcome.ok, changeCount: meta.changeCount, via: outcome.via, ret: outcome.ret ? outcome.ret[0] : "", error: outcome.error || "" };
   } catch (e) {
     await chrome.storage.local.set({

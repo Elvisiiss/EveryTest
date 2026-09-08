@@ -1,0 +1,402 @@
+2026-09-08 08:42:57 [INFO] ============================================================
+2026-09-08 08:42:57 [INFO] 1688 旺铺商品巡检程序启动
+2026-09-08 08:42:57 [INFO] 巡检间隔: 300 秒 | xlsx: E:\Project\EveryTest\monitor\monitor.xlsx | 日志: E:\Project\EveryTest\monitor\monitor.log
+2026-09-08 08:42:57 [INFO] 扩展数据接收端: http://127.0.0.1:18999/offerlist (POST)
+2026-09-08 08:42:57 [INFO] 基线快照: 0 个商品(来自上次运行)
+2026-09-08 08:42:57 [INFO] ============================================================
+2026-09-08 08:42:57 [WARNING] 巡检失败(直连): 状态=FAIL_SYS_TOKEN_EXOIRED::令牌过期 错误=-
+2026-09-08 08:54:48 [INFO] ============================================================
+2026-09-08 08:54:48 [INFO] 1688 旺铺商品巡检程序启动
+2026-09-08 08:54:48 [INFO] 巡检间隔: 300 秒 | xlsx: E:\Project\EveryTest\monitor\monitor.xlsx | 日志: E:\Project\EveryTest\monitor\monitor.log
+2026-09-08 08:54:48 [INFO] 扩展数据接收端: http://127.0.0.1:18999/offerlist (POST)
+2026-09-08 08:54:48 [INFO] 基线快照: 0 个商品(来自上次运行)
+2026-09-08 08:54:48 [INFO] ============================================================
+2026-09-08 08:54:48 [WARNING] 巡检失败(直连): 状态=FAIL_SYS_TOKEN_EXOIRED::令牌过期 错误=-
+2026-09-08 08:55:42 [INFO] 会话已刷新(来源:浏览器扩展): secret=(空)..., cookie 长度=43
+2026-09-08 08:55:43 [WARNING] 巡检失败(直连): 状态=FAIL_SYS_TOKEN_EMPTY::令牌为空 错误=-
+2026-09-08 08:55:45 [INFO] 会话已刷新(来源:浏览器扩展): secret=(空)..., cookie 长度=43
+2026-09-08 08:55:46 [WARNING] 巡检失败(直连): 状态=FAIL_SYS_TOKEN_EMPTY::令牌为空 错误=-
+2026-09-08 08:58:56 [INFO] ============================================================
+2026-09-08 08:58:56 [INFO] 1688 旺铺商品巡检程序启动
+2026-09-08 08:58:56 [INFO] 巡检间隔: 300 秒 | xlsx: E:\Project\EveryTest\monitor\monitor.xlsx | 日志: E:\Project\EveryTest\monitor\monitor.log
+2026-09-08 08:58:56 [INFO] 扩展数据接收端: http://127.0.0.1:18999/offerlist (POST)
+2026-09-08 08:58:56 [INFO] 基线快照: 0 个商品(来自上次运行)
+2026-09-08 08:58:56 [INFO] ============================================================
+2026-09-08 08:58:56 [WARNING] 巡检失败(直连): 状态=FAIL_SYS_TOKEN_EXOIRED::令牌过期 错误=-
+2026-09-08 08:59:05 [INFO] 会话已刷新(来源:浏览器扩展): secret=(空), cookie合计=40个, 含_m_h5_tk=True | 扩展侧诊断: h5api请求=0, 其中带密钥=0
+2026-09-08 08:59:05 [WARNING] 巡检失败(直连): 状态=FAIL_SYS_TOKEN_EXOIRED::令牌过期 错误=-
+2026-09-08 08:59:11 [INFO] 会话已刷新(来源:浏览器扩展): secret=(空), cookie合计=40个, 含_m_h5_tk=True | 扩展侧诊断: h5api请求=2, 其中带密钥=0
+2026-09-08 08:59:12 [WARNING] 巡检失败(直连): 状态=FAIL_SYS_TOKEN_EXOIRED::令牌过期 错误=-
+2026-09-08 08:59:41 [INFO] 会话已刷新(来源:浏览器扩展): secret=(空), cookie合计=40个, 含_m_h5_tk=True | 扩展侧诊断: h5api请求=5, 其中带密钥=0
+2026-09-08 08:59:41 [WARNING] 巡检失败(直连): 状态=FAIL_SYS_TOKEN_EXOIRED::令牌过期 错误=-
+2026-09-08 09:01:57 [INFO] ============================================================
+2026-09-08 09:01:57 [INFO] 1688 旺铺商品巡检程序启动
+2026-09-08 09:01:57 [INFO] 巡检间隔: 300 秒 | xlsx: E:\Project\EveryTest\monitor\monitor.xlsx | 日志: E:\Project\EveryTest\monitor\monitor.log
+2026-09-08 09:01:57 [INFO] 扩展数据接收端: http://127.0.0.1:18999/offerlist (POST)
+2026-09-08 09:01:57 [INFO] 基线快照: 0 个商品(来自上次运行)
+2026-09-08 09:01:57 [INFO] ============================================================
+2026-09-08 09:01:58 [WARNING] 巡检失败(直连): 状态=FAIL_SYS_TOKEN_EXOIRED::令牌过期 错误=-
+2026-09-08 09:05:38 [INFO] ============================================================
+2026-09-08 09:05:38 [INFO] 1688 旺铺商品巡检程序启动
+2026-09-08 09:05:38 [INFO] 巡检间隔: 300 秒 | xlsx: E:\Project\EveryTest\monitor\monitor.xlsx | 日志: E:\Project\EveryTest\monitor\monitor.log
+2026-09-08 09:05:38 [INFO] 扩展数据接收端: http://127.0.0.1:18999/offerlist (POST)
+2026-09-08 09:05:38 [INFO] 基线快照: 0 个商品(来自上次运行)
+2026-09-08 09:05:38 [INFO] ============================================================
+2026-09-08 09:05:38 [WARNING] 巡检失败(直连): 状态=FAIL_SYS_TOKEN_EXOIRED::令牌过期 错误=-
+2026-09-08 09:05:47 [INFO] 会话已刷新(来源:浏览器扩展): secret=(空), cookie合计=40个, 含_m_h5_tk=True | 扩展侧诊断: h5api请求=0(带密钥0), offerlist请求=0(带密钥0)
+2026-09-08 09:05:47 [WARNING] 巡检失败(直连): 状态=FAIL_SYS_TOKEN_EXOIRED::令牌过期 错误=-
+2026-09-08 09:06:02 [INFO] 会话已刷新(来源:浏览器扩展): secret=(空), cookie合计=40个, 含_m_h5_tk=True | 扩展侧诊断: h5api请求=27(带密钥0), offerlist请求=2(带密钥0)
+2026-09-08 09:06:02 [INFO]   offerlist样例: 带密钥=False 头名=['User-Agent', 'accept'] URL=https://h5api.m.1688.com/h5/mtop.1688.pc.plugin.shop.offerlist.query/1.1/?jsv=2.7.2&appKey=12574478&t=1788829547231&sign=0c8e0e5e920529925be8677072fff3f8&dataType=json&api=mtop.1688.pc.plugin.shop.off
+2026-09-08 09:06:02 [INFO]   offerlist样例: 带密钥=False 头名=['sec-ch-ua-platform', 'User-Agent', 'sec-ch-ua', 'sec-ch-ua-mobile', 'Accept'] URL=https://h5api.m.1688.com/h5/mtop.1688.pc.plugin.shop.offerlist.query/1.1/?jsv=2.7.2&appKey=12574478&t=1788829547488&sign=cb79e3d39144584eb50bc26cd94734be&dataType=json&api=mtop.1688.pc.plugin.shop.off
+2026-09-08 09:06:02 [WARNING] 巡检失败(直连): 状态=FAIL_SYS_TOKEN_EXOIRED::令牌过期 错误=-
+2026-09-08 09:09:26 [INFO] ============================================================
+2026-09-08 09:09:26 [INFO] 1688 旺铺商品巡检程序启动
+2026-09-08 09:09:26 [INFO] 巡检间隔: 300 秒 | xlsx: E:\Project\EveryTest\monitor\monitor.xlsx | 日志: E:\Project\EveryTest\monitor\monitor.log
+2026-09-08 09:09:26 [INFO] 扩展数据接收端: http://127.0.0.1:18999/offerlist (POST)
+2026-09-08 09:09:26 [INFO] 基线快照: 0 个商品(来自上次运行)
+2026-09-08 09:09:26 [INFO] ============================================================
+2026-09-08 09:09:26 [WARNING] 巡检失败(直连): 状态=FAIL_SYS_TOKEN_EXOIRED::令牌过期 错误=-
+2026-09-08 09:09:38 [INFO] 会话已刷新(来源:浏览器扩展): secret=(空), cookie合计=40个, 含_m_h5_tk=True | 扩展侧诊断: h5api请求=0(带密钥0), offerlist请求=0(带密钥0)
+2026-09-08 09:09:38 [WARNING] 巡检失败(直连): 状态=FAIL_SYS_TOKEN_EXOIRED::令牌过期 错误=-
+2026-09-08 09:09:43 [INFO] 会话已刷新(来源:浏览器扩展): secret=(空), cookie合计=40个, 含_m_h5_tk=True | 扩展侧诊断: h5api请求=2(带密钥0), offerlist请求=2(带密钥0)
+2026-09-08 09:09:43 [INFO]   offerlist样例: 带密钥=False 头名=['User-Agent', 'accept'] URL=https://h5api.m.1688.com/h5/mtop.1688.pc.plugin.shop.offerlist.query/1.1/?jsv=2.7.2&appKey=12574478&t=1788829778225&sign=c588b51845a7c0d565d5f4c3772886f6&dataType=json&api=mtop.1688.pc.plugin.shop.off
+2026-09-08 09:09:43 [INFO]   offerlist样例: 带密钥=False 头名=['sec-ch-ua-platform', 'User-Agent', 'sec-ch-ua', 'sec-ch-ua-mobile', 'Accept'] URL=https://h5api.m.1688.com/h5/mtop.1688.pc.plugin.shop.offerlist.query/1.1/?jsv=2.7.2&appKey=12574478&t=1788829778598&sign=e800bf35ef82804cc80277c801c427de&dataType=json&api=mtop.1688.pc.plugin.shop.off
+2026-09-08 09:09:43 [WARNING] 巡检失败(直连): 状态=FAIL_SYS_TOKEN_EXOIRED::令牌过期 错误=-
+2026-09-08 09:12:33 [INFO] 会话已刷新(来源:浏览器扩展): secret=(空), cookie合计=40个, 含_m_h5_tk=True | 扩展侧诊断: h5api请求=0(带密钥0), offerlist请求=0(带密钥0)
+2026-09-08 09:12:34 [WARNING] 巡检失败(直连): 状态=FAIL_SYS_TOKEN_EXOIRED::令牌过期 错误=-
+2026-09-08 09:12:36 [INFO] 会话已刷新(来源:浏览器扩展): secret=(空), cookie合计=40个, 含_m_h5_tk=True | 扩展侧诊断: h5api请求=2(带密钥0), offerlist请求=2(带密钥0)
+2026-09-08 09:12:36 [INFO]   offerlist样例: 带密钥=False 头名=['User-Agent', 'accept'] URL=https://h5api.m.1688.com/h5/mtop.1688.pc.plugin.shop.offerlist.query/1.1/?jsv=2.7.2&appKey=12574478&t=1788829953716&sign=8d2e6a29986505cf241edb31c1bd97dc&dataType=json&api=mtop.1688.pc.plugin.shop.offerList.query&v=1.1&type=originaljson&data=%7B%22memberId%22%3A%22b2b-319033927380e11%22%2C%22sortType%22%3A%22wangpu_score%22%2C%22pageNum%22%3A1%2C%22pageSize%22%3A300%7D
+2026-09-08 09:12:36 [INFO]   offerlist样例: 带密钥=False 头名=['sec-ch-ua-platform', 'User-Agent', 'sec-ch-ua', 'sec-ch-ua-mobile', 'Accept'] URL=https://h5api.m.1688.com/h5/mtop.1688.pc.plugin.shop.offerlist.query/1.1/?jsv=2.7.2&appKey=12574478&t=1788829953851&sign=a1e43af83b7f51d346a74d5094171902&dataType=json&api=mtop.1688.pc.plugin.shop.offerList.query&v=1.1&type=originaljson&data=%7B%22memberId%22%3A%22b2b-319033927380e11%22%2C%22sortType%22%3A%22wangpu_score%22%2C%22pageNum%22%3A1%2C%22pageSize%22%3A300%7D
+2026-09-08 09:12:36 [WARNING] 巡检失败(直连): 状态=FAIL_SYS_TOKEN_EXOIRED::令牌过期 错误=-
+2026-09-08 09:15:11 [INFO] ============================================================
+2026-09-08 09:15:11 [INFO] 1688 旺铺商品巡检程序启动
+2026-09-08 09:15:11 [INFO] 巡检间隔: 300 秒 | xlsx: E:\Project\EveryTest\monitor\monitor.xlsx | 日志: E:\Project\EveryTest\monitor\monitor.log
+2026-09-08 09:15:11 [INFO] 扩展数据接收端: http://127.0.0.1:18999/offerlist (POST)
+2026-09-08 09:15:11 [INFO] 基线快照: 0 个商品(来自上次运行)
+2026-09-08 09:15:11 [INFO] ============================================================
+2026-09-08 09:15:11 [WARNING] 巡检失败(直连): 状态=FAIL_SYS_TOKEN_EXOIRED::令牌过期 错误=-
+2026-09-08 09:15:15 [INFO] 会话已刷新(来源:浏览器扩展): secret=(空), cookie合计=40个, 含_m_h5_tk=True | 扩展侧诊断: h5api请求=0(带密钥0), offerlist请求=0(带密钥0)
+2026-09-08 09:15:16 [WARNING] 巡检失败(直连): 状态=FAIL_SYS_TOKEN_EXOIRED::令牌过期 错误=-
+2026-09-08 09:15:20 [INFO] 会话已刷新(来源:浏览器扩展): secret=(空), cookie合计=40个, 含_m_h5_tk=True | 扩展侧诊断: h5api请求=2(带密钥0), offerlist请求=2(带密钥0)
+2026-09-08 09:15:20 [INFO]   offerlist样例: 带密钥=False 头名=['User-Agent', 'accept'] URL=https://h5api.m.1688.com/h5/mtop.1688.pc.plugin.shop.offerlist.query/1.1/?jsv=2.7.2&appKey=12574478&t=1788830115876&sign=f3c937e6bad0d81c43fb8d2cef24175d&dataType=json&api=mtop.1688.pc.plugin.shop.offerList.query&v=1.1&type=originaljson&data=%7B%22memberId%22%3A%22b2b-319033927380e11%22%2C%22sortType%22%3A%22wangpu_score%22%2C%22pageNum%22%3A1%2C%22pageSize%22%3A300%7D
+2026-09-08 09:15:20 [INFO]   offerlist样例: 带密钥=False 头名=['sec-ch-ua-platform', 'User-Agent', 'sec-ch-ua', 'sec-ch-ua-mobile', 'Accept'] URL=https://h5api.m.1688.com/h5/mtop.1688.pc.plugin.shop.offerlist.query/1.1/?jsv=2.7.2&appKey=12574478&t=1788830116013&sign=8e295e1f39df351a15c38f7bbaed3746&dataType=json&api=mtop.1688.pc.plugin.shop.offerList.query&v=1.1&type=originaljson&data=%7B%22memberId%22%3A%22b2b-319033927380e11%22%2C%22sortType%22%3A%22wangpu_score%22%2C%22pageNum%22%3A1%2C%22pageSize%22%3A300%7D
+2026-09-08 09:15:20 [WARNING] 巡检失败(直连): 状态=FAIL_SYS_TOKEN_EXOIRED::令牌过期 错误=-
+2026-09-08 09:17:58 [INFO] 会话已刷新(来源:浏览器扩展): secret=(空), cookie合计=40个, 含_m_h5_tk=True | 扩展侧诊断: h5api请求=8(带密钥0), offerlist请求=8(带密钥0)
+2026-09-08 09:17:58 [INFO]   offerlist样例: 带密钥=False 头名=['sec-ch-ua-platform', 'User-Agent', 'sec-ch-ua', 'sec-ch-ua-mobile', 'Accept'] URL=https://h5api.m.1688.com/h5/mtop.1688.pc.plugin.shop.offerlist.query/1.1/?jsv=2.7.2&appKey=12574478&t=1788830129022&sign=5c3a2bbb5ccce0021a22ab86961d5a42&dataType=json&api=mtop.1688.pc.plugin.shop.offerList.query&v=1.1&type=originaljson&data=%7B%22memberId%22%3A%22b2b-319033927380e11%22%2C%22sortType%22%3A%22wangpu_score%22%2C%22pageNum%22%3A1%2C%22pageSize%22%3A300%7D
+2026-09-08 09:17:58 [INFO]   offerlist样例: 带密钥=False 头名=['User-Agent', 'accept'] URL=https://h5api.m.1688.com/h5/mtop.1688.pc.plugin.shop.offerlist.query/1.1/?jsv=2.7.2&appKey=12574478&t=1788830271009&sign=3626b6dad996264aaf0ff41f5735fbd3&dataType=json&api=mtop.1688.pc.plugin.shop.offerList.query&v=1.1&type=originaljson&data=%7B%22memberId%22%3A%22b2b-319033927380e11%22%2C%22sortType%22%3A%22wangpu_score%22%2C%22pageNum%22%3A1%2C%22pageSize%22%3A300%7D
+2026-09-08 09:17:58 [INFO]   offerlist样例: 带密钥=False 头名=['sec-ch-ua-platform', 'User-Agent', 'sec-ch-ua', 'sec-ch-ua-mobile', 'Accept'] URL=https://h5api.m.1688.com/h5/mtop.1688.pc.plugin.shop.offerlist.query/1.1/?jsv=2.7.2&appKey=12574478&t=1788830271380&sign=23cb8c9f43d226cf5d91a65d05f0dc44&dataType=json&api=mtop.1688.pc.plugin.shop.offerList.query&v=1.1&type=originaljson&data=%7B%22memberId%22%3A%22b2b-319033927380e11%22%2C%22sortType%22%3A%22wangpu_score%22%2C%22pageNum%22%3A1%2C%22pageSize%22%3A300%7D
+2026-09-08 09:17:59 [WARNING] 巡检失败(直连): 状态=FAIL_SYS_TOKEN_EXOIRED::令牌过期 错误=-
+2026-09-08 09:21:46 [INFO] ============================================================
+2026-09-08 09:21:46 [INFO] 1688 旺铺商品巡检程序启动
+2026-09-08 09:21:46 [INFO] 巡检间隔: 300 秒 | xlsx: E:\Project\EveryTest\monitor\monitor.xlsx | 日志: E:\Project\EveryTest\monitor\monitor.log
+2026-09-08 09:21:46 [INFO] 扩展数据接收端: http://127.0.0.1:18999/offerlist (POST)
+2026-09-08 09:21:46 [INFO] 基线快照: 0 个商品(来自上次运行)
+2026-09-08 09:21:46 [INFO] ============================================================
+2026-09-08 09:21:47 [WARNING] 巡检失败(直连): 状态=FAIL_SYS_TOKEN_EXOIRED::令牌过期 错误=-
+2026-09-08 09:21:52 [INFO] 会话已刷新(来源:浏览器扩展): secret=(空), cookie合计=40个, 含_m_h5_tk=True | 扩展侧诊断: h5api请求=0(带密钥0), offerlist请求=0(带密钥0)
+2026-09-08 09:21:52 [WARNING] 巡检失败(直连): 状态=FAIL_SYS_TOKEN_EXOIRED::令牌过期 错误=-
+2026-09-08 09:21:59 [INFO] 会话已刷新(来源:浏览器扩展): secret=(空), cookie合计=40个, 含_m_h5_tk=True | 扩展侧诊断: h5api请求=2(带密钥0), offerlist请求=2(带密钥0)
+2026-09-08 09:21:59 [INFO]   offerlist样例: 带密钥=False 头名=['User-Agent', 'accept'] URL=https://h5api.m.1688.com/h5/mtop.1688.pc.plugin.shop.offerlist.query/1.1/?jsv=2.7.2&appKey=12574478&t=1788830512022&sign=0c9a22c15eeb8b649950e1a0b27f8249&dataType=json&api=mtop.1688.pc.plugin.shop.offerList.query&v=1.1&type=originaljson&data=%7B%22memberId%22%3A%22b2b-319033927380e11%22%2C%22sortType%22%3A%22wangpu_score%22%2C%22pageNum%22%3A1%2C%22pageSize%22%3A300%7D
+2026-09-08 09:21:59 [INFO]   offerlist样例: 带密钥=False 头名=['sec-ch-ua-platform', 'User-Agent', 'sec-ch-ua', 'sec-ch-ua-mobile', 'Accept'] URL=https://h5api.m.1688.com/h5/mtop.1688.pc.plugin.shop.offerlist.query/1.1/?jsv=2.7.2&appKey=12574478&t=1788830512293&sign=ff5fea6a5a504869f70b791654f748c5&dataType=json&api=mtop.1688.pc.plugin.shop.offerList.query&v=1.1&type=originaljson&data=%7B%22memberId%22%3A%22b2b-319033927380e11%22%2C%22sortType%22%3A%22wangpu_score%22%2C%22pageNum%22%3A1%2C%22pageSize%22%3A300%7D
+2026-09-08 09:21:59 [WARNING] 巡检失败(直连): 状态=FAIL_SYS_TOKEN_EXOIRED::令牌过期 错误=-
+2026-09-08 09:22:05 [INFO] 会话已刷新(来源:浏览器扩展): secret=(空), cookie合计=40个, 含_m_h5_tk=True | 扩展侧诊断: h5api请求=31(带密钥0), offerlist请求=4(带密钥0)
+2026-09-08 09:22:05 [INFO]   offerlist样例: 带密钥=False 头名=['sec-ch-ua-platform', 'User-Agent', 'sec-ch-ua', 'sec-ch-ua-mobile', 'Accept'] URL=https://h5api.m.1688.com/h5/mtop.1688.pc.plugin.shop.offerlist.query/1.1/?jsv=2.7.2&appKey=12574478&t=1788830512293&sign=ff5fea6a5a504869f70b791654f748c5&dataType=json&api=mtop.1688.pc.plugin.shop.offerList.query&v=1.1&type=originaljson&data=%7B%22memberId%22%3A%22b2b-319033927380e11%22%2C%22sortType%22%3A%22wangpu_score%22%2C%22pageNum%22%3A1%2C%22pageSize%22%3A300%7D
+2026-09-08 09:22:05 [INFO]   offerlist样例: 带密钥=False 头名=['User-Agent', 'accept'] URL=https://h5api.m.1688.com/h5/mtop.1688.pc.plugin.shop.offerlist.query/1.1/?jsv=2.7.2&appKey=12574478&t=1788830519508&sign=4d92a5e313876ee5951f18e196feffb0&dataType=json&api=mtop.1688.pc.plugin.shop.offerList.query&v=1.1&type=originaljson&data=%7B%22memberId%22%3A%22b2b-319033927380e11%22%2C%22sortType%22%3A%22wangpu_score%22%2C%22pageNum%22%3A1%2C%22pageSize%22%3A300%7D
+2026-09-08 09:22:05 [INFO]   offerlist样例: 带密钥=False 头名=['sec-ch-ua-platform', 'User-Agent', 'sec-ch-ua', 'sec-ch-ua-mobile', 'Accept'] URL=https://h5api.m.1688.com/h5/mtop.1688.pc.plugin.shop.offerlist.query/1.1/?jsv=2.7.2&appKey=12574478&t=1788830519597&sign=79923c3991f190b0c327416ebd8c26af&dataType=json&api=mtop.1688.pc.plugin.shop.offerList.query&v=1.1&type=originaljson&data=%7B%22memberId%22%3A%22b2b-319033927380e11%22%2C%22sortType%22%3A%22wangpu_score%22%2C%22pageNum%22%3A1%2C%22pageSize%22%3A300%7D
+2026-09-08 09:22:06 [WARNING] 巡检失败(直连): 状态=FAIL_SYS_TOKEN_EXOIRED::令牌过期 错误=-
+2026-09-08 09:24:19 [INFO] 会话已刷新(来源:浏览器扩展): secret=(空), cookie合计=40个, 含_m_h5_tk=True | 扩展侧诊断: h5api请求=0(带密钥0), offerlist请求=0(带密钥0)
+2026-09-08 09:24:19 [INFO] 会话已刷新(来源:浏览器扩展): secret=(空), cookie合计=40个, 含_m_h5_tk=True | 扩展侧诊断: h5api请求=0(带密钥0), offerlist请求=0(带密钥0)
+2026-09-08 09:24:19 [WARNING] 巡检失败(直连): 状态=FAIL_SYS_TOKEN_EXOIRED::令牌过期 错误=-
+2026-09-08 09:24:19 [WARNING] 巡检失败(直连): 状态=FAIL_SYS_TOKEN_EXOIRED::令牌过期 错误=-
+2026-09-08 09:24:29 [INFO] 会话已刷新(来源:浏览器扩展): secret=(空), cookie合计=40个, 含_m_h5_tk=True | 扩展侧诊断: h5api请求=2(带密钥0), offerlist请求=2(带密钥0)
+2026-09-08 09:24:29 [INFO]   offerlist样例: 带密钥=False 头名=['User-Agent', 'accept'] URL=https://h5api.m.1688.com/h5/mtop.1688.pc.plugin.shop.offerlist.query/1.1/?jsv=2.7.2&appKey=12574478&t=1788830659177&sign=4e5980cdf324e4fc25a5212a397ad6a6&dataType=json&api=mtop.1688.pc.plugin.shop.offerList.query&v=1.1&type=originaljson&data=%7B%22memberId%22%3A%22b2b-319033927380e11%22%2C%22sortType%22%3A%22wangpu_score%22%2C%22pageNum%22%3A1%2C%22pageSize%22%3A300%7D
+2026-09-08 09:24:29 [INFO]   offerlist样例: 带密钥=False 头名=['sec-ch-ua-platform', 'User-Agent', 'sec-ch-ua', 'sec-ch-ua-mobile', 'Accept'] URL=https://h5api.m.1688.com/h5/mtop.1688.pc.plugin.shop.offerlist.query/1.1/?jsv=2.7.2&appKey=12574478&t=1788830659293&sign=f7a0181464c7703ade676061e0b01ea1&dataType=json&api=mtop.1688.pc.plugin.shop.offerList.query&v=1.1&type=originaljson&data=%7B%22memberId%22%3A%22b2b-319033927380e11%22%2C%22sortType%22%3A%22wangpu_score%22%2C%22pageNum%22%3A1%2C%22pageSize%22%3A300%7D
+2026-09-08 09:24:29 [INFO]   [CDP] CDP 已附加到标签 1648490438 (3分钟后自动解除)
+2026-09-08 09:24:29 [INFO]   [CDP] CDP 看到 offerlist 请求但无密钥头, 头名: Referer,User-Agent,sec-ch-ua,sec-ch-ua-mobile,sec-ch-ua-platform
+2026-09-08 09:24:29 [INFO] 会话已刷新(来源:浏览器扩展): secret=(空), cookie合计=40个, 含_m_h5_tk=True | 扩展侧诊断: h5api请求=2(带密钥0), offerlist请求=2(带密钥0)
+2026-09-08 09:24:29 [INFO]   offerlist样例: 带密钥=False 头名=['User-Agent', 'accept'] URL=https://h5api.m.1688.com/h5/mtop.1688.pc.plugin.shop.offerlist.query/1.1/?jsv=2.7.2&appKey=12574478&t=1788830659177&sign=4e5980cdf324e4fc25a5212a397ad6a6&dataType=json&api=mtop.1688.pc.plugin.shop.offerList.query&v=1.1&type=originaljson&data=%7B%22memberId%22%3A%22b2b-319033927380e11%22%2C%22sortType%22%3A%22wangpu_score%22%2C%22pageNum%22%3A1%2C%22pageSize%22%3A300%7D
+2026-09-08 09:24:29 [INFO]   offerlist样例: 带密钥=False 头名=['sec-ch-ua-platform', 'User-Agent', 'sec-ch-ua', 'sec-ch-ua-mobile', 'Accept'] URL=https://h5api.m.1688.com/h5/mtop.1688.pc.plugin.shop.offerlist.query/1.1/?jsv=2.7.2&appKey=12574478&t=1788830659293&sign=f7a0181464c7703ade676061e0b01ea1&dataType=json&api=mtop.1688.pc.plugin.shop.offerList.query&v=1.1&type=originaljson&data=%7B%22memberId%22%3A%22b2b-319033927380e11%22%2C%22sortType%22%3A%22wangpu_score%22%2C%22pageNum%22%3A1%2C%22pageSize%22%3A300%7D
+2026-09-08 09:24:29 [INFO]   [CDP] CDP 已附加到标签 1648490438 (3分钟后自动解除)
+2026-09-08 09:24:29 [INFO]   [CDP] CDP 看到 offerlist 请求但无密钥头, 头名: Referer,User-Agent,sec-ch-ua,sec-ch-ua-mobile,sec-ch-ua-platform
+2026-09-08 09:24:30 [WARNING] 巡检失败(直连): 状态=FAIL_SYS_TOKEN_EXOIRED::令牌过期 错误=-
+2026-09-08 09:24:31 [WARNING] 巡检失败(直连): 状态=FAIL_SYS_TOKEN_EXOIRED::令牌过期 错误=-
+2026-09-08 09:27:55 [INFO] ============================================================
+2026-09-08 09:27:55 [INFO] 1688 旺铺商品巡检程序启动
+2026-09-08 09:27:55 [INFO] 巡检间隔: 300 秒 | xlsx: E:\Project\EveryTest\monitor\monitor.xlsx | 日志: E:\Project\EveryTest\monitor\monitor.log
+2026-09-08 09:27:55 [INFO] 扩展数据接收端: http://127.0.0.1:18999/offerlist (POST)
+2026-09-08 09:27:55 [INFO] 基线快照: 0 个商品(来自上次运行)
+2026-09-08 09:27:55 [INFO] ============================================================
+2026-09-08 09:27:56 [WARNING] 巡检失败(直连): 状态=FAIL_SYS_TOKEN_EXOIRED::令牌过期 错误=-
+2026-09-08 09:28:00 [INFO] 会话已刷新(来源:浏览器扩展): secret=(空), cookie合计=40个, 含_m_h5_tk=True | 扩展侧诊断: h5api请求=0(带密钥0), offerlist请求=0(带密钥0)
+2026-09-08 09:28:00 [INFO] 会话已刷新(来源:浏览器扩展): secret=(空), cookie合计=40个, 含_m_h5_tk=True | 扩展侧诊断: h5api请求=0(带密钥0), offerlist请求=0(带密钥0)
+2026-09-08 09:28:00 [WARNING] 巡检失败(直连): 状态=FAIL_SYS_TOKEN_EXOIRED::令牌过期 错误=-
+2026-09-08 09:28:01 [WARNING] 巡检失败(直连): 状态=FAIL_SYS_TOKEN_EXOIRED::令牌过期 错误=-
+2026-09-08 09:28:20 [INFO] 会话已刷新(来源:浏览器扩展): secret=(空), cookie合计=40个, 含_m_h5_tk=True | 扩展侧诊断: h5api请求=29(带密钥0), offerlist请求=2(带密钥0)
+2026-09-08 09:28:20 [INFO]   offerlist样例: 带密钥=False 头名=['User-Agent', 'accept'] URL=https://h5api.m.1688.com/h5/mtop.1688.pc.plugin.shop.offerlist.query/1.1/?jsv=2.7.2&appKey=12574478&t=1788830880489&sign=db6c2d512d1997891194c0a9b75e4434&dataType=json&api=mtop.1688.pc.plugin.shop.offerList.query&v=1.1&type=originaljson&data=%7B%22memberId%22%3A%22b2b-319033927380e11%22%2C%22sortType%22%3A%22wangpu_score%22%2C%22pageNum%22%3A1%2C%22pageSize%22%3A300%7D
+2026-09-08 09:28:20 [INFO]   offerlist样例: 带密钥=False 头名=['sec-ch-ua-platform', 'User-Agent', 'sec-ch-ua', 'sec-ch-ua-mobile', 'Accept'] URL=https://h5api.m.1688.com/h5/mtop.1688.pc.plugin.shop.offerlist.query/1.1/?jsv=2.7.2&appKey=12574478&t=1788830880774&sign=b16519fd06f358e145505f40f07f2441&dataType=json&api=mtop.1688.pc.plugin.shop.offerList.query&v=1.1&type=originaljson&data=%7B%22memberId%22%3A%22b2b-319033927380e11%22%2C%22sortType%22%3A%22wangpu_score%22%2C%22pageNum%22%3A1%2C%22pageSize%22%3A300%7D
+2026-09-08 09:28:20 [INFO]   [CDP] h5api 其他调用: https://h5api.m.1688.com/h5/mtop.1688.distribution.mcd.tool.top.schedule.get/1.0/?jsv=2.7.4&appKey=12574478&t=1788830891081&sign=3498107ec7da2441572d3c43b7d3cb90&_bx-login=new&v=1.0&type=jsonp&dataTyp
+2026-09-08 09:28:20 [INFO]   [CDP] h5api 其他调用: https://h5api.m.1688.com/h5/mtop.cbu.pc.smart.engine.api.abtest.execute/1.0/?jsv=2.7.4&appKey=12574478&t=1788830891223&sign=da65b8ae91320d7ceeb4e9f4eff2a13c&_bx-login=new&api=mtop.cbu.pc.smart.engine.
+2026-09-08 09:28:20 [INFO]   [CDP] h5api 其他调用: https://h5api.m.1688.com/h5/mtop.1688.pc.plugin.user.login.get/1.0/?jsv=2.7.2&appKey=12574478&t=1788830891261&sign=7efe1c9d503148ea5a9af486f73b4b56&dataType=json&api=mtop.1688.pc.plugin.user.login.get
+2026-09-08 09:28:20 [INFO]   [CDP] h5api 其他调用: https://h5api.m.1688.com/h5/mtop.com.alibaba.cbu.distribution.shopuser.querytag/1.0/?jsv=2.7.4&appKey=12574478&t=1788830891277&sign=1aa7320a9766198ca7e450b27836e763&_bx-login=new&v=1.0&type=jsonp&data
+2026-09-08 09:28:20 [INFO]   [CDP] h5api 其他调用: https://h5api.m.1688.com/h5/mtop.1688.mmga.offerdetail.service/1.0/?jsv=2.7.4&appKey=12574478&t=1788830891379&sign=99ed9fd69acb1e0e04d06392b753cb5b&_bx-login=new&api=mtop.1688.mmga.offerdetail.service
+2026-09-08 09:28:20 [INFO]   [CDP] h5api 其他调用: https://h5api.m.1688.com/h5/mtop.1688.pc.plugin.od.data.query/1.1/?jsv=2.7.2&appKey=12574478&t=1788830891620&sign=8cee819f5a2d7d36b65aacbf4a0d4c06&dataType=json&api=mtop.1688.pc.plugin.od.data.query&v
+2026-09-08 09:28:20 [INFO]   [CDP] 疑似插件后端请求: https://umdc.1688.com/repWd.json?e=2072&sv=208&pv=234&pn=detail.1688.com&biz=7&bx-umidtoken=T2gA4xkF7aP2nMmy2K5dgTA3QhqSQrTwpX6zgpf9xHeV4xgTSjbDS_yPEumtgLWT2gQ=&tid=pWva9V2-LpJygTuP_qRqbkH4b-p1DcbJuo7
+2026-09-08 09:28:20 [INFO]   [CDP] h5api 其他调用: https://h5api.m.1688.com/h5/mtop.ali.ww.cbu.web.gateway/1.0/?jsv=2.7.4&appKey=12574478&t=1788830891959&sign=e0ff168165834bbcdee5add60c8fb639&_bx-login=new&api=mtop.ali.ww.cbu.web.gateway&v=1.0&type=or
+2026-09-08 09:28:20 [INFO]   [CDP] 后端响应体: {"ck":"139bb0698d7d62a422278d8f4d1226c8","dt":"WCzN4/glEKpPxw9wnG2AVwwlixCinHDJ/GwOjBU9CyNZ28GrFK8nyVsnhOkJCz/2gB4EWgn3rc0O248fxMETuSGAfH1fJ25KZ9SbSwN4GrK6jTLunClwMOG8dVmMc9i8KEvOQdti1f2TjwTbx965z24Mq+QOknpMdZy449sx8vdTrY2kOR+iEWiJnizOSIBnVtpd5To9rmk
+2026-09-08 09:28:20 [INFO]   [CDP] h5api 其他调用: https://h5api.m.1688.com/h5/mtop.1688.pc.plugin.placement.decision.batchget/1.0/?jsv=2.7.4&appKey=12574478&t=1788830892414&sign=f7db4461bb20b8b5b07630ea3d7777b8&_bx-login=new&api=mtop.1688.pc.plugin.p
+2026-09-08 09:28:20 [INFO]   [CDP] h5api 其他调用: https://h5api.m.1688.com/h5/mtop.1688.mmga.offerdetail.service/1.0/?jsv=2.7.4&appKey=12574478&t=1788830892622&sign=0f5b55d493099e4307c85ffb3bbcc920&_bx-login=new&api=mtop.1688.mmga.offerdetail.service
+2026-09-08 09:28:20 [INFO]   [CDP] h5api 其他调用: https://h5api.m.1688.com/h5/mtop.relationrecommend.wirelessrecommend.recommend/2.0/?jsv=2.7.4&appKey=12574478&t=1788830892639&sign=98133abd2ff3ed70f74e48707e0b8ade&_bx-login=new&api=mtop.relationrecom
+2026-09-08 09:28:20 [INFO]   [CDP] h5api 其他调用: https://h5api.m.1688.com/h5/mtop.1688.pc.plugin.od.sepc.query/1.0/?jsv=2.7.2&appKey=12574478&t=1788830892661&sign=9b020390d9023f7c4c119fe37c9bcd78&dataType=json&api=mtop.1688.pc.plugin.od.sepc.query&v
+2026-09-08 09:28:20 [INFO]   [CDP] 疑似插件后端请求: https://g.alicdn.com/odt/web-based/2.3.5/??fmd.js,legacy.js,@ali/lib-mtop.js,react.js,antd.js,lodash.js,react-dom.js,@alife/csrf-token.js,@ant-design/icons.js,immer.js,query-string.js,classnames.js,ax
+2026-09-08 09:28:20 [INFO] 会话已刷新(来源:浏览器扩展): secret=(空), cookie合计=40个, 含_m_h5_tk=True | 扩展侧诊断: h5api请求=30(带密钥0), offerlist请求=3(带密钥0)
+2026-09-08 09:28:20 [INFO]   offerlist样例: 带密钥=False 头名=['User-Agent', 'accept'] URL=https://h5api.m.1688.com/h5/mtop.1688.pc.plugin.shop.offerlist.query/1.1/?jsv=2.7.2&appKey=12574478&t=1788830880489&sign=db6c2d512d1997891194c0a9b75e4434&dataType=json&api=mtop.1688.pc.plugin.shop.offerList.query&v=1.1&type=originaljson&data=%7B%22memberId%22%3A%22b2b-319033927380e11%22%2C%22sortType%22%3A%22wangpu_score%22%2C%22pageNum%22%3A1%2C%22pageSize%22%3A300%7D
+2026-09-08 09:28:20 [INFO]   offerlist样例: 带密钥=False 头名=['sec-ch-ua-platform', 'User-Agent', 'sec-ch-ua', 'sec-ch-ua-mobile', 'Accept'] URL=https://h5api.m.1688.com/h5/mtop.1688.pc.plugin.shop.offerlist.query/1.1/?jsv=2.7.2&appKey=12574478&t=1788830880774&sign=b16519fd06f358e145505f40f07f2441&dataType=json&api=mtop.1688.pc.plugin.shop.offerList.query&v=1.1&type=originaljson&data=%7B%22memberId%22%3A%22b2b-319033927380e11%22%2C%22sortType%22%3A%22wangpu_score%22%2C%22pageNum%22%3A1%2C%22pageSize%22%3A300%7D
+2026-09-08 09:28:20 [INFO]   offerlist样例: 带密钥=False 头名=['User-Agent', 'accept'] URL=https://h5api.m.1688.com/h5/mtop.1688.pc.plugin.shop.offerlist.query/1.1/?jsv=2.7.2&appKey=12574478&t=1788830900135&sign=fc73e5f8ff3aaa93d5753dfde00850b7&dataType=json&api=mtop.1688.pc.plugin.shop.offerList.query&v=1.1&type=originaljson&data=%7B%22memberId%22%3A%22b2b-319033927380e11%22%2C%22sortType%22%3A%22wangpu_score%22%2C%22pageNum%22%3A1%2C%22pageSize%22%3A300%7D
+2026-09-08 09:28:20 [INFO]   [CDP] h5api 其他调用: https://h5api.m.1688.com/h5/mtop.1688.distribution.mcd.tool.top.schedule.get/1.0/?jsv=2.7.4&appKey=12574478&t=1788830891081&sign=3498107ec7da2441572d3c43b7d3cb90&_bx-login=new&v=1.0&type=jsonp&dataTyp
+2026-09-08 09:28:20 [INFO]   [CDP] h5api 其他调用: https://h5api.m.1688.com/h5/mtop.cbu.pc.smart.engine.api.abtest.execute/1.0/?jsv=2.7.4&appKey=12574478&t=1788830891223&sign=da65b8ae91320d7ceeb4e9f4eff2a13c&_bx-login=new&api=mtop.cbu.pc.smart.engine.
+2026-09-08 09:28:20 [INFO]   [CDP] h5api 其他调用: https://h5api.m.1688.com/h5/mtop.1688.pc.plugin.user.login.get/1.0/?jsv=2.7.2&appKey=12574478&t=1788830891261&sign=7efe1c9d503148ea5a9af486f73b4b56&dataType=json&api=mtop.1688.pc.plugin.user.login.get
+2026-09-08 09:28:20 [INFO]   [CDP] h5api 其他调用: https://h5api.m.1688.com/h5/mtop.com.alibaba.cbu.distribution.shopuser.querytag/1.0/?jsv=2.7.4&appKey=12574478&t=1788830891277&sign=1aa7320a9766198ca7e450b27836e763&_bx-login=new&v=1.0&type=jsonp&data
+2026-09-08 09:28:20 [INFO]   [CDP] h5api 其他调用: https://h5api.m.1688.com/h5/mtop.1688.mmga.offerdetail.service/1.0/?jsv=2.7.4&appKey=12574478&t=1788830891379&sign=99ed9fd69acb1e0e04d06392b753cb5b&_bx-login=new&api=mtop.1688.mmga.offerdetail.service
+2026-09-08 09:28:20 [INFO]   [CDP] h5api 其他调用: https://h5api.m.1688.com/h5/mtop.1688.pc.plugin.od.data.query/1.1/?jsv=2.7.2&appKey=12574478&t=1788830891620&sign=8cee819f5a2d7d36b65aacbf4a0d4c06&dataType=json&api=mtop.1688.pc.plugin.od.data.query&v
+2026-09-08 09:28:20 [INFO]   [CDP] 疑似插件后端请求: https://umdc.1688.com/repWd.json?e=2072&sv=208&pv=234&pn=detail.1688.com&biz=7&bx-umidtoken=T2gA4xkF7aP2nMmy2K5dgTA3QhqSQrTwpX6zgpf9xHeV4xgTSjbDS_yPEumtgLWT2gQ=&tid=pWva9V2-LpJygTuP_qRqbkH4b-p1DcbJuo7
+2026-09-08 09:28:20 [INFO]   [CDP] h5api 其他调用: https://h5api.m.1688.com/h5/mtop.ali.ww.cbu.web.gateway/1.0/?jsv=2.7.4&appKey=12574478&t=1788830891959&sign=e0ff168165834bbcdee5add60c8fb639&_bx-login=new&api=mtop.ali.ww.cbu.web.gateway&v=1.0&type=or
+2026-09-08 09:28:20 [INFO]   [CDP] 后端响应体: {"ck":"139bb0698d7d62a422278d8f4d1226c8","dt":"WCzN4/glEKpPxw9wnG2AVwwlixCinHDJ/GwOjBU9CyNZ28GrFK8nyVsnhOkJCz/2gB4EWgn3rc0O248fxMETuSGAfH1fJ25KZ9SbSwN4GrK6jTLunClwMOG8dVmMc9i8KEvOQdti1f2TjwTbx965z24Mq+QOknpMdZy449sx8vdTrY2kOR+iEWiJnizOSIBnVtpd5To9rmk
+2026-09-08 09:28:20 [INFO]   [CDP] h5api 其他调用: https://h5api.m.1688.com/h5/mtop.1688.pc.plugin.placement.decision.batchget/1.0/?jsv=2.7.4&appKey=12574478&t=1788830892414&sign=f7db4461bb20b8b5b07630ea3d7777b8&_bx-login=new&api=mtop.1688.pc.plugin.p
+2026-09-08 09:28:20 [INFO]   [CDP] h5api 其他调用: https://h5api.m.1688.com/h5/mtop.1688.mmga.offerdetail.service/1.0/?jsv=2.7.4&appKey=12574478&t=1788830892622&sign=0f5b55d493099e4307c85ffb3bbcc920&_bx-login=new&api=mtop.1688.mmga.offerdetail.service
+2026-09-08 09:28:20 [INFO]   [CDP] h5api 其他调用: https://h5api.m.1688.com/h5/mtop.relationrecommend.wirelessrecommend.recommend/2.0/?jsv=2.7.4&appKey=12574478&t=1788830892639&sign=98133abd2ff3ed70f74e48707e0b8ade&_bx-login=new&api=mtop.relationrecom
+2026-09-08 09:28:20 [INFO]   [CDP] h5api 其他调用: https://h5api.m.1688.com/h5/mtop.1688.pc.plugin.od.sepc.query/1.0/?jsv=2.7.2&appKey=12574478&t=1788830892661&sign=9b020390d9023f7c4c119fe37c9bcd78&dataType=json&api=mtop.1688.pc.plugin.od.sepc.query&v
+2026-09-08 09:28:20 [INFO]   [CDP] 疑似插件后端请求: https://g.alicdn.com/odt/web-based/2.3.5/??fmd.js,legacy.js,@ali/lib-mtop.js,react.js,antd.js,lodash.js,react-dom.js,@alife/csrf-token.js,@ant-design/icons.js,immer.js,query-string.js,classnames.js,ax
+2026-09-08 09:28:20 [WARNING] 巡检失败(直连): 状态=FAIL_SYS_TOKEN_EXOIRED::令牌过期 错误=-
+2026-09-08 09:28:20 [WARNING] 巡检失败(直连): 状态=FAIL_SYS_TOKEN_EXOIRED::令牌过期 错误=-
+2026-09-08 09:30:03 [INFO] ============================================================
+2026-09-08 09:30:03 [INFO] 1688 旺铺商品巡检程序启动
+2026-09-08 09:30:03 [INFO] 巡检间隔: 300 秒 | xlsx: E:\Project\EveryTest\monitor\monitor.xlsx | 日志: E:\Project\EveryTest\monitor\monitor.log
+2026-09-08 09:30:03 [INFO] 扩展数据接收端: http://127.0.0.1:18999/offerlist (POST)
+2026-09-08 09:30:03 [INFO] 基线快照: 0 个商品(来自上次运行)
+2026-09-08 09:30:03 [INFO] ============================================================
+2026-09-08 09:30:03 [WARNING] 巡检失败(直连): 状态=FAIL_SYS_TOKEN_EXOIRED::令牌过期 错误=-
+2026-09-08 09:30:08 [INFO] 会话已刷新(来源:浏览器扩展): secret=(空), cookie合计=40个, 含_m_h5_tk=True | 扩展侧诊断: h5api请求=0(带密钥0), offerlist请求=0(带密钥0)
+2026-09-08 09:30:08 [INFO] 会话已刷新(来源:浏览器扩展): secret=(空), cookie合计=40个, 含_m_h5_tk=True | 扩展侧诊断: h5api请求=0(带密钥0), offerlist请求=0(带密钥0)
+2026-09-08 09:30:08 [WARNING] 巡检失败(直连): 状态=FAIL_SYS_TOKEN_EXOIRED::令牌过期 错误=-
+2026-09-08 09:30:08 [WARNING] 巡检失败(直连): 状态=FAIL_SYS_TOKEN_EXOIRED::令牌过期 错误=-
+2026-09-08 09:30:14 [INFO] 会话已刷新(来源:浏览器扩展): secret=(空), cookie合计=40个, 含_m_h5_tk=True | 扩展侧诊断: h5api请求=2(带密钥0), offerlist请求=2(带密钥0)
+2026-09-08 09:30:14 [INFO]   offerlist样例: 带密钥=False 头名=['User-Agent', 'accept'] URL=https://h5api.m.1688.com/h5/mtop.1688.pc.plugin.shop.offerlist.query/1.1/?jsv=2.7.2&appKey=12574478&t=1788831008117&sign=e322615c65a8b7fb04ede1c8d0b652ea&dataType=json&api=mtop.1688.pc.plugin.shop.offerList.query&v=1.1&type=originaljson&data=%7B%22memberId%22%3A%22b2b-319033927380e11%22%2C%22sortType%22%3A%22wangpu_score%22%2C%22pageNum%22%3A1%2C%22pageSize%22%3A300%7D
+2026-09-08 09:30:14 [INFO]   offerlist样例: 带密钥=False 头名=['sec-ch-ua-platform', 'User-Agent', 'sec-ch-ua', 'sec-ch-ua-mobile', 'Accept'] URL=https://h5api.m.1688.com/h5/mtop.1688.pc.plugin.shop.offerlist.query/1.1/?jsv=2.7.2&appKey=12574478&t=1788831008235&sign=717ae841ce73dd915953fa3c5843825f&dataType=json&api=mtop.1688.pc.plugin.shop.offerList.query&v=1.1&type=originaljson&data=%7B%22memberId%22%3A%22b2b-319033927380e11%22%2C%22sortType%22%3A%22wangpu_score%22%2C%22pageNum%22%3A1%2C%22pageSize%22%3A300%7D
+2026-09-08 09:30:14 [INFO]   [CDP] CDP 已附加到标签 1648490438 (3分钟后自动解除)
+2026-09-08 09:30:14 [INFO]   [CDP] offerlist 无密钥头 | Referer=https://detail.1688.com/ | 头名: Referer,User-Agent,sec-ch-ua,sec-ch-ua-mobile,sec-ch-ua-platform
+2026-09-08 09:30:14 [INFO]   [CDP] 插件 offerlist 响应: ret=1006::系统开小差了，请稍候重试
+2026-09-08 09:30:14 [INFO]   [CDP] 疑似插件后端请求: https://hd.mmstat.com/amedia.videox.heartbeat?gmkey=OTHER&gokey=appName%3DEdge%26appVersion%3D152.0.0.0%26architecture%3Damd64%26businessToken%3Dunknown%26clientIP%3D%26containerType%3DWebview%26coreN
+2026-09-08 09:30:14 [INFO]   [CDP] 后端响应体: R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==
+2026-09-08 09:30:14 [INFO] 会话已刷新(来源:浏览器扩展): secret=(空), cookie合计=40个, 含_m_h5_tk=True | 扩展侧诊断: h5api请求=2(带密钥0), offerlist请求=2(带密钥0)
+2026-09-08 09:30:14 [INFO]   offerlist样例: 带密钥=False 头名=['User-Agent', 'accept'] URL=https://h5api.m.1688.com/h5/mtop.1688.pc.plugin.shop.offerlist.query/1.1/?jsv=2.7.2&appKey=12574478&t=1788831008117&sign=e322615c65a8b7fb04ede1c8d0b652ea&dataType=json&api=mtop.1688.pc.plugin.shop.offerList.query&v=1.1&type=originaljson&data=%7B%22memberId%22%3A%22b2b-319033927380e11%22%2C%22sortType%22%3A%22wangpu_score%22%2C%22pageNum%22%3A1%2C%22pageSize%22%3A300%7D
+2026-09-08 09:30:14 [INFO]   offerlist样例: 带密钥=False 头名=['sec-ch-ua-platform', 'User-Agent', 'sec-ch-ua', 'sec-ch-ua-mobile', 'Accept'] URL=https://h5api.m.1688.com/h5/mtop.1688.pc.plugin.shop.offerlist.query/1.1/?jsv=2.7.2&appKey=12574478&t=1788831008235&sign=717ae841ce73dd915953fa3c5843825f&dataType=json&api=mtop.1688.pc.plugin.shop.offerList.query&v=1.1&type=originaljson&data=%7B%22memberId%22%3A%22b2b-319033927380e11%22%2C%22sortType%22%3A%22wangpu_score%22%2C%22pageNum%22%3A1%2C%22pageSize%22%3A300%7D
+2026-09-08 09:30:14 [INFO]   [CDP] CDP 已附加到标签 1648490438 (3分钟后自动解除)
+2026-09-08 09:30:14 [INFO]   [CDP] offerlist 无密钥头 | Referer=https://detail.1688.com/ | 头名: Referer,User-Agent,sec-ch-ua,sec-ch-ua-mobile,sec-ch-ua-platform
+2026-09-08 09:30:14 [INFO]   [CDP] 插件 offerlist 响应: ret=1006::系统开小差了，请稍候重试
+2026-09-08 09:30:14 [INFO]   [CDP] 疑似插件后端请求: https://hd.mmstat.com/amedia.videox.heartbeat?gmkey=OTHER&gokey=appName%3DEdge%26appVersion%3D152.0.0.0%26architecture%3Damd64%26businessToken%3Dunknown%26clientIP%3D%26containerType%3DWebview%26coreN
+2026-09-08 09:30:14 [INFO]   [CDP] 后端响应体: R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==
+2026-09-08 09:30:14 [WARNING] 巡检失败(直连): 状态=FAIL_SYS_TOKEN_EXOIRED::令牌过期 错误=-
+2026-09-08 09:30:15 [WARNING] 巡检失败(直连): 状态=FAIL_SYS_TOKEN_EXOIRED::令牌过期 错误=-
+2026-09-08 09:31:19 [INFO] 会话已刷新(来源:浏览器扩展): secret=tMrw7DZ7MZzkt0fG, cookie合计=40个, 含_m_h5_tk=True | 扩展侧诊断: h5api请求=4(带密钥0), offerlist请求=4(带密钥0)
+2026-09-08 09:31:19 [INFO]   offerlist样例: 带密钥=False 头名=['sec-ch-ua-platform', 'User-Agent', 'sec-ch-ua', 'sec-ch-ua-mobile', 'Accept'] URL=https://h5api.m.1688.com/h5/mtop.1688.pc.plugin.shop.offerlist.query/1.1/?jsv=2.7.2&appKey=12574478&t=1788831008235&sign=717ae841ce73dd915953fa3c5843825f&dataType=json&api=mtop.1688.pc.plugin.shop.offerList.query&v=1.1&type=originaljson&data=%7B%22memberId%22%3A%22b2b-319033927380e11%22%2C%22sortType%22%3A%22wangpu_score%22%2C%22pageNum%22%3A1%2C%22pageSize%22%3A300%7D
+2026-09-08 09:31:19 [INFO]   offerlist样例: 带密钥=False 头名=['User-Agent', 'accept'] URL=https://h5api.m.1688.com/h5/mtop.1688.pc.plugin.shop.offerlist.query/1.1/?jsv=2.7.2&appKey=12574478&t=1788831014421&sign=7fbe8a1dd28d94dc4c29f548a906a253&dataType=json&api=mtop.1688.pc.plugin.shop.offerList.query&v=1.1&type=originaljson&data=%7B%22memberId%22%3A%22b2b-319033927380e11%22%2C%22sortType%22%3A%22wangpu_score%22%2C%22pageNum%22%3A1%2C%22pageSize%22%3A300%7D
+2026-09-08 09:31:19 [INFO]   offerlist样例: 带密钥=False 头名=['sec-ch-ua-platform', 'User-Agent', 'sec-ch-ua', 'sec-ch-ua-mobile', 'Accept'] URL=https://h5api.m.1688.com/h5/mtop.1688.pc.plugin.shop.offerlist.query/1.1/?jsv=2.7.2&appKey=12574478&t=1788831014499&sign=b4b7b59c05df2d066316acb1a964060c&dataType=json&api=mtop.1688.pc.plugin.shop.offerList.query&v=1.1&type=originaljson&data=%7B%22memberId%22%3A%22b2b-319033927380e11%22%2C%22sortType%22%3A%22wangpu_score%22%2C%22pageNum%22%3A1%2C%22pageSize%22%3A300%7D
+2026-09-08 09:31:19 [INFO]   [CDP] CDP 已附加到标签 1648490438 (3分钟后自动解除)
+2026-09-08 09:31:19 [INFO]   [CDP] offerlist 无密钥头 | Referer=https://detail.1688.com/ | 头名: Referer,User-Agent,sec-ch-ua,sec-ch-ua-mobile,sec-ch-ua-platform
+2026-09-08 09:31:19 [INFO]   [CDP] 插件 offerlist 响应: ret=1006::系统开小差了，请稍候重试
+2026-09-08 09:31:19 [INFO]   [CDP] 疑似插件后端请求: https://hd.mmstat.com/amedia.videox.heartbeat?gmkey=OTHER&gokey=appName%3DEdge%26appVersion%3D152.0.0.0%26architecture%3Damd64%26businessToken%3Dunknown%26clientIP%3D%26containerType%3DWebview%26coreN
+2026-09-08 09:31:19 [INFO]   [CDP] 后端响应体: R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==
+2026-09-08 09:31:19 [INFO]   [CDP] CDP 已附加到标签 1648490438 (3分钟后自动解除)
+2026-09-08 09:31:19 [INFO]   [CDP] offerlist 无密钥头 | Referer=https://detail.1688.com/ | 头名: Referer,User-Agent,sec-ch-ua,sec-ch-ua-mobile,sec-ch-ua-platform
+2026-09-08 09:31:19 [INFO]   [CDP] 插件 offerlist 响应: ret=1006::系统开小差了，请稍候重试
+2026-09-08 09:31:19 [INFO]   [CDP] 疑似插件后端请求: https://hd.mmstat.com/amedia.videox.heartbeat?gmkey=OTHER&gokey=appName%3DEdge%26appVersion%3D152.0.0.0%26architecture%3Damd64%26businessToken%3Dunknown%26clientIP%3D%26containerType%3DWebview%26coreN
+2026-09-08 09:31:19 [INFO]   [CDP] 后端响应体: R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==
+2026-09-08 09:31:19 [INFO]   [CDP] 疑似插件后端请求: https://hd.mmstat.com/amedia.videox.heartbeat?gmkey=OTHER&gokey=appName%3DEdge%26appVersion%3D152.0.0.0%26architecture%3Damd64%26businessToken%3Dunknown%26clientIP%3D%26containerType%3DWebview%26coreN
+2026-09-08 09:31:19 [INFO]   [CDP] 后端响应体: R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==
+2026-09-08 09:31:19 [INFO]   [CDP] plugin接口请求: https://h5api.m.1688.com/h5/mtop.1688.pc.plugin.user.login.get/1.0/?jsv=2.7.2&appKey=12574478&t=1788831079032&sign=5240951ca589d835bb1d7d004acec862&dataType=json&api=mtop.1688.pc.plugin.user.login.get&v=1.0&type=originaljson&data=%7B%7D
+2026-09-08 09:31:19 [WARNING] 巡检失败(直连): 状态=FAIL_SYS_TOKEN_EXOIRED::令牌过期 错误=-
+2026-09-08 09:33:08 [INFO] 会话已刷新(来源:浏览器扩展): secret=tMrw7DZ7MZzkt0fG, cookie合计=40个, 含_m_h5_tk=True | 扩展侧诊断: h5api请求=4(带密钥0), offerlist请求=4(带密钥0)
+2026-09-08 09:33:08 [INFO]   offerlist样例: 带密钥=False 头名=['sec-ch-ua-platform', 'User-Agent', 'sec-ch-ua', 'sec-ch-ua-mobile', 'Accept'] URL=https://h5api.m.1688.com/h5/mtop.1688.pc.plugin.shop.offerlist.query/1.1/?jsv=2.7.2&appKey=12574478&t=1788831008235&sign=717ae841ce73dd915953fa3c5843825f&dataType=json&api=mtop.1688.pc.plugin.shop.offerList.query&v=1.1&type=originaljson&data=%7B%22memberId%22%3A%22b2b-319033927380e11%22%2C%22sortType%22%3A%22wangpu_score%22%2C%22pageNum%22%3A1%2C%22pageSize%22%3A300%7D
+2026-09-08 09:33:08 [INFO]   offerlist样例: 带密钥=False 头名=['User-Agent', 'accept'] URL=https://h5api.m.1688.com/h5/mtop.1688.pc.plugin.shop.offerlist.query/1.1/?jsv=2.7.2&appKey=12574478&t=1788831014421&sign=7fbe8a1dd28d94dc4c29f548a906a253&dataType=json&api=mtop.1688.pc.plugin.shop.offerList.query&v=1.1&type=originaljson&data=%7B%22memberId%22%3A%22b2b-319033927380e11%22%2C%22sortType%22%3A%22wangpu_score%22%2C%22pageNum%22%3A1%2C%22pageSize%22%3A300%7D
+2026-09-08 09:33:08 [INFO]   offerlist样例: 带密钥=False 头名=['sec-ch-ua-platform', 'User-Agent', 'sec-ch-ua', 'sec-ch-ua-mobile', 'Accept'] URL=https://h5api.m.1688.com/h5/mtop.1688.pc.plugin.shop.offerlist.query/1.1/?jsv=2.7.2&appKey=12574478&t=1788831014499&sign=b4b7b59c05df2d066316acb1a964060c&dataType=json&api=mtop.1688.pc.plugin.shop.offerList.query&v=1.1&type=originaljson&data=%7B%22memberId%22%3A%22b2b-319033927380e11%22%2C%22sortType%22%3A%22wangpu_score%22%2C%22pageNum%22%3A1%2C%22pageSize%22%3A300%7D
+2026-09-08 09:33:08 [INFO]   [CDP] 后端响应体: R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==
+2026-09-08 09:33:08 [INFO]   [CDP] plugin接口请求: https://h5api.m.1688.com/h5/mtop.1688.pc.plugin.user.login.get/1.0/?jsv=2.7.2&appKey=12574478&t=1788831079032&sign=5240951ca589d835bb1d7d004acec862&dataType=json&api=mtop.1688.pc.plugin.user.login.get&v=1.0&type=originaljson&data=%7B%7D
+2026-09-08 09:33:08 [INFO]   [CDP] CDP 学到插件密钥: tMrw7DZ7MZzkt0fG...
+2026-09-08 09:33:08 [INFO]   [CDP] offerlist 无密钥头 | Referer=- | 头名: Accept,Access-Control-Request-Headers,Access-Control-Request-Method,Origin,Sec-Fetch-Mode,User-Agent
+2026-09-08 09:33:08 [INFO]   [CDP] 插件 offerlist 响应成功, 商品 300 条, 已转发本机程序
+2026-09-08 09:33:08 [INFO]   [CDP] plugin接口请求: https://h5api.m.1688.com/h5/mtop.1688.pc.plugin.user.login.get/1.0/?jsv=2.7.2&appKey=12574478&t=1788831087539&sign=d02f505f92d20dc76ba34acb0b2170f3&dataType=json&api=mtop.1688.pc.plugin.user.login.get&v=1.0&type=originaljson&data=%7B%7D
+2026-09-08 09:33:08 [INFO]   [CDP] offerlist 无密钥头 | Referer=- | 头名: Accept,Access-Control-Request-Headers,Access-Control-Request-Method,Origin,Sec-Fetch-Mode,User-Agent
+2026-09-08 09:33:08 [INFO]   [CDP] 疑似插件后端请求: https://hd.mmstat.com/amedia.videox.heartbeat?gmkey=OTHER&gokey=appName%3DEdge%26appVersion%3D152.0.0.0%26architecture%3Damd64%26businessToken%3Dunknown%26clientIP%3D%26containerType%3DWebview%26coreN
+2026-09-08 09:33:08 [INFO]   [CDP] 后端响应体: R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==
+2026-09-08 09:33:08 [INFO]   [CDP] 疑似插件后端请求: https://hd.mmstat.com/amedia.videox.heartbeat?gmkey=OTHER&gokey=appName%3DEdge%26appVersion%3D152.0.0.0%26architecture%3Damd64%26businessToken%3Dunknown%26clientIP%3D%26containerType%3DWebview%26coreN
+2026-09-08 09:33:08 [INFO]   [CDP] 后端响应体: R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==
+2026-09-08 09:33:08 [INFO]   [CDP] 疑似插件后端请求: https://hd.mmstat.com/amedia.videox.heartbeat?gmkey=OTHER&gokey=appName%3DEdge%26appVersion%3D152.0.0.0%26architecture%3Damd64%26businessToken%3Dunknown%26clientIP%3D%26containerType%3DWebview%26coreN
+2026-09-08 09:33:08 [INFO]   [CDP] 后端响应体: R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==
+2026-09-08 09:33:08 [INFO]   [CDP] plugin接口请求: https://h5api.m.1688.com/h5/mtop.1688.pc.plugin.user.login.get/1.0/?jsv=2.7.2&appKey=12574478&t=1788831188588&sign=923d2b6d6baeebcef3fc36848f2288fa&dataType=json&api=mtop.1688.pc.plugin.user.login.get&v=1.0&type=originaljson&data=%7B%7D
+2026-09-08 09:33:08 [INFO] 巡检成功(扩展转发): 商品 300 条, 本轮变化 0 条
+2026-09-08 09:33:08 [INFO] 已处理扩展转发数据
+2026-09-08 09:33:58 [INFO] 会话已刷新(来源:浏览器扩展): secret=tMrw7DZ7MZzkt0fG, cookie合计=40个, 含_m_h5_tk=True | 扩展侧诊断: h5api请求=28(带密钥0), offerlist请求=4(带密钥0)
+2026-09-08 09:33:58 [INFO]   offerlist样例: 带密钥=False 头名=['sec-ch-ua-platform', 'User-Agent', 'sec-ch-ua', 'sec-ch-ua-mobile', 'Accept'] URL=https://h5api.m.1688.com/h5/mtop.1688.pc.plugin.shop.offerlist.query/1.1/?jsv=2.7.2&appKey=12574478&t=1788831008235&sign=717ae841ce73dd915953fa3c5843825f&dataType=json&api=mtop.1688.pc.plugin.shop.offerList.query&v=1.1&type=originaljson&data=%7B%22memberId%22%3A%22b2b-319033927380e11%22%2C%22sortType%22%3A%22wangpu_score%22%2C%22pageNum%22%3A1%2C%22pageSize%22%3A300%7D
+2026-09-08 09:33:58 [INFO]   offerlist样例: 带密钥=False 头名=['User-Agent', 'accept'] URL=https://h5api.m.1688.com/h5/mtop.1688.pc.plugin.shop.offerlist.query/1.1/?jsv=2.7.2&appKey=12574478&t=1788831014421&sign=7fbe8a1dd28d94dc4c29f548a906a253&dataType=json&api=mtop.1688.pc.plugin.shop.offerList.query&v=1.1&type=originaljson&data=%7B%22memberId%22%3A%22b2b-319033927380e11%22%2C%22sortType%22%3A%22wangpu_score%22%2C%22pageNum%22%3A1%2C%22pageSize%22%3A300%7D
+2026-09-08 09:33:58 [INFO]   offerlist样例: 带密钥=False 头名=['sec-ch-ua-platform', 'User-Agent', 'sec-ch-ua', 'sec-ch-ua-mobile', 'Accept'] URL=https://h5api.m.1688.com/h5/mtop.1688.pc.plugin.shop.offerlist.query/1.1/?jsv=2.7.2&appKey=12574478&t=1788831014499&sign=b4b7b59c05df2d066316acb1a964060c&dataType=json&api=mtop.1688.pc.plugin.shop.offerList.query&v=1.1&type=originaljson&data=%7B%22memberId%22%3A%22b2b-319033927380e11%22%2C%22sortType%22%3A%22wangpu_score%22%2C%22pageNum%22%3A1%2C%22pageSize%22%3A300%7D
+2026-09-08 09:33:58 [INFO]   [CDP] 插件 offerlist 响应成功, 商品 300 条, 已转发本机程序
+2026-09-08 09:33:58 [INFO]   [CDP] plugin接口请求: https://h5api.m.1688.com/h5/mtop.1688.pc.plugin.user.login.get/1.0/?jsv=2.7.2&appKey=12574478&t=1788831087539&sign=d02f505f92d20dc76ba34acb0b2170f3&dataType=json&api=mtop.1688.pc.plugin.user.login.get&v=1.0&type=originaljson&data=%7B%7D
+2026-09-08 09:33:58 [INFO]   [CDP] offerlist 无密钥头 | Referer=- | 头名: Accept,Access-Control-Request-Headers,Access-Control-Request-Method,Origin,Sec-Fetch-Mode,User-Agent
+2026-09-08 09:33:58 [INFO]   [CDP] 疑似插件后端请求: https://hd.mmstat.com/amedia.videox.heartbeat?gmkey=OTHER&gokey=appName%3DEdge%26appVersion%3D152.0.0.0%26architecture%3Damd64%26businessToken%3Dunknown%26clientIP%3D%26containerType%3DWebview%26coreN
+2026-09-08 09:33:58 [INFO]   [CDP] 后端响应体: R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==
+2026-09-08 09:33:58 [INFO]   [CDP] 疑似插件后端请求: https://hd.mmstat.com/amedia.videox.heartbeat?gmkey=OTHER&gokey=appName%3DEdge%26appVersion%3D152.0.0.0%26architecture%3Damd64%26businessToken%3Dunknown%26clientIP%3D%26containerType%3DWebview%26coreN
+2026-09-08 09:33:58 [INFO]   [CDP] 后端响应体: R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==
+2026-09-08 09:33:58 [INFO]   [CDP] 疑似插件后端请求: https://hd.mmstat.com/amedia.videox.heartbeat?gmkey=OTHER&gokey=appName%3DEdge%26appVersion%3D152.0.0.0%26architecture%3Damd64%26businessToken%3Dunknown%26clientIP%3D%26containerType%3DWebview%26coreN
+2026-09-08 09:33:58 [INFO]   [CDP] 后端响应体: R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==
+2026-09-08 09:33:58 [INFO]   [CDP] plugin接口请求: https://h5api.m.1688.com/h5/mtop.1688.pc.plugin.user.login.get/1.0/?jsv=2.7.2&appKey=12574478&t=1788831188588&sign=923d2b6d6baeebcef3fc36848f2288fa&dataType=json&api=mtop.1688.pc.plugin.user.login.get&v=1.0&type=originaljson&data=%7B%7D
+2026-09-08 09:33:58 [INFO]   [CDP] offerlist 无密钥头 | Referer=- | 头名: Accept,Access-Control-Request-Headers,Access-Control-Request-Method,Origin,Sec-Fetch-Mode,User-Agent
+2026-09-08 09:33:58 [INFO]   [CDP] 疑似插件后端请求: https://hd.mmstat.com/amedia.videox.heartbeat?gmkey=OTHER&gokey=appName%3DEdge%26appVersion%3D152.0.0.0%26architecture%3Damd64%26businessToken%3Dunknown%26clientIP%3D%26containerType%3DWebview%26coreN
+2026-09-08 09:33:58 [INFO]   [CDP] 后端响应体: R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==
+2026-09-08 09:33:58 [INFO]   [CDP] CDP 已从标签 1648490438 解除
+2026-09-08 09:33:58 [WARNING] 巡检失败(直连): 状态=FAIL_SYS_TOKEN_EXOIRED::令牌过期 错误=-
+2026-09-08 09:34:08 [INFO] 会话已刷新(来源:浏览器扩展): secret=tMrw7DZ7MZzkt0fG, cookie合计=40个, 含_m_h5_tk=True | 扩展侧诊断: h5api请求=58(带密钥0), offerlist请求=4(带密钥0)
+2026-09-08 09:34:08 [INFO]   offerlist样例: 带密钥=False 头名=['sec-ch-ua-platform', 'User-Agent', 'sec-ch-ua', 'sec-ch-ua-mobile', 'Accept'] URL=https://h5api.m.1688.com/h5/mtop.1688.pc.plugin.shop.offerlist.query/1.1/?jsv=2.7.2&appKey=12574478&t=1788831008235&sign=717ae841ce73dd915953fa3c5843825f&dataType=json&api=mtop.1688.pc.plugin.shop.offerList.query&v=1.1&type=originaljson&data=%7B%22memberId%22%3A%22b2b-319033927380e11%22%2C%22sortType%22%3A%22wangpu_score%22%2C%22pageNum%22%3A1%2C%22pageSize%22%3A300%7D
+2026-09-08 09:34:08 [INFO]   offerlist样例: 带密钥=False 头名=['User-Agent', 'accept'] URL=https://h5api.m.1688.com/h5/mtop.1688.pc.plugin.shop.offerlist.query/1.1/?jsv=2.7.2&appKey=12574478&t=1788831014421&sign=7fbe8a1dd28d94dc4c29f548a906a253&dataType=json&api=mtop.1688.pc.plugin.shop.offerList.query&v=1.1&type=originaljson&data=%7B%22memberId%22%3A%22b2b-319033927380e11%22%2C%22sortType%22%3A%22wangpu_score%22%2C%22pageNum%22%3A1%2C%22pageSize%22%3A300%7D
+2026-09-08 09:34:08 [INFO]   offerlist样例: 带密钥=False 头名=['sec-ch-ua-platform', 'User-Agent', 'sec-ch-ua', 'sec-ch-ua-mobile', 'Accept'] URL=https://h5api.m.1688.com/h5/mtop.1688.pc.plugin.shop.offerlist.query/1.1/?jsv=2.7.2&appKey=12574478&t=1788831014499&sign=b4b7b59c05df2d066316acb1a964060c&dataType=json&api=mtop.1688.pc.plugin.shop.offerList.query&v=1.1&type=originaljson&data=%7B%22memberId%22%3A%22b2b-319033927380e11%22%2C%22sortType%22%3A%22wangpu_score%22%2C%22pageNum%22%3A1%2C%22pageSize%22%3A300%7D
+2026-09-08 09:34:08 [INFO]   [CDP] 后端响应体: R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==
+2026-09-08 09:34:08 [INFO]   [CDP] plugin接口请求: https://h5api.m.1688.com/h5/mtop.1688.pc.plugin.user.login.get/1.0/?jsv=2.7.2&appKey=12574478&t=1788831188588&sign=923d2b6d6baeebcef3fc36848f2288fa&dataType=json&api=mtop.1688.pc.plugin.user.login.get&v=1.0&type=originaljson&data=%7B%7D
+2026-09-08 09:34:08 [INFO]   [CDP] offerlist 无密钥头 | Referer=- | 头名: Accept,Access-Control-Request-Headers,Access-Control-Request-Method,Origin,Sec-Fetch-Mode,User-Agent
+2026-09-08 09:34:08 [INFO]   [CDP] 疑似插件后端请求: https://hd.mmstat.com/amedia.videox.heartbeat?gmkey=OTHER&gokey=appName%3DEdge%26appVersion%3D152.0.0.0%26architecture%3Damd64%26businessToken%3Dunknown%26clientIP%3D%26containerType%3DWebview%26coreN
+2026-09-08 09:34:08 [INFO]   [CDP] 后端响应体: R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==
+2026-09-08 09:34:08 [INFO]   [CDP] CDP 已从标签 1648490438 解除
+2026-09-08 09:34:08 [INFO]   [CDP] CDP 已附加到标签 1648490438 (3分钟后自动解除)
+2026-09-08 09:34:08 [INFO]   [CDP] 疑似插件后端请求: https://g.alicdn.com/odt/web-based/2.3.5/??fmd.js,legacy.js,@ali/lib-mtop.js,react.js,antd.js,lodash.js,react-dom.js,@alife/csrf-token.js,@ant-design/icons.js,immer.js,query-string.js,classnames.js,ax
+2026-09-08 09:34:08 [INFO]   [CDP] plugin接口请求: https://h5api.m.1688.com/h5/mtop.1688.pc.plugin.od.sepc.query/1.0/?jsv=2.7.2&appKey=12574478&t=1788831238962&sign=a52ca4ff7ca5c4d2c7497ea05e9a5e5f&dataType=json&api=mtop.1688.pc.plugin.od.sepc.query&v=1.0&type=originaljson&data=%7B%22offerId%22%3A%22951308633342%22%7D
+2026-09-08 09:34:08 [INFO]   [CDP] 疑似插件后端请求: https://gobuy.1688.com/engine/api/engine/launch/execute?data=%7B%22strategyLocations%22%3A%5B%7B%22flowId%22%3A%22flow_c951779e1%22%2C%22strategyBizCode%22%3A%22STB_b77f811e1%22%7D%2C%7B%22flowId%22%3
+2026-09-08 09:34:08 [INFO]   [CDP] 后端响应体: flow_0gxalb_callback({"headers":{"EagleEye-TraceId":"2150461017888312391345185e0e1a"},"httpStatusCode":200,"model":{"debuger":{"debugEvents":[],"openDebug":false}},"success":true})
+2026-09-08 09:34:08 [INFO]   [CDP] plugin接口响应: {"api":"mtop.1688.pc.plugin.od.sepc.query","data":{"attributesToSpecIdMap":{"圆角反光条节节收-茉莉蜜桃":"2da0d5c69c52331cb5294160b505b38d","圆角反光条节节收-抹茶牛乳":"fb7f87dbf7c0ef9ba0b90f3353d7ebe4","圆角反光条节节收-蜜桃乌龙":"081e233776607586f62bd3405440dc04","圆角反光条节节收-冰岛乌龙":"f072b2ce24c72922d6a6eeb9be1ace93","圆角粉边手动-
+2026-09-08 09:34:08 [INFO]   [CDP] 疑似插件后端请求: https://umdc.1688.com/repWd.json?e=2072&sv=208&pv=234&pn=detail.1688.com&biz=7&bx-umidtoken=T2gA4xkF7aP2nMmy2K5dgTA3QhqSQrTwpX6zgpf9xHeV4xgTSjbDS_yPEumtgLWT2gQ=&tid=pWva9V2-LpJygTuP_qRqbkH4b-p1DcbJuo7
+2026-09-08 09:34:08 [INFO]   [CDP] 后端响应体: {"ck":"9c012a61116f649d1833c180949d3884","dt":"WCzN4/glEKpPxw9wnG2AVwwlixCinHDJ/GwOjBU9CyNZ28GrFK8nyVsnhOkJCz/2gB4EWgn3rc0O248fxMETuSGAfH1fJ25KZ9SbSwN4GrK6jTLunClwMOG8dVmMc9i8KEvOQdti1f2TjwTbx965z4MBd7hvZewyVLc06kO1C1VchoyCZG9jHKk9yqIirCO1IgUx01EQxnt
+2026-09-08 09:34:09 [WARNING] 巡检失败(直连): 状态=FAIL_SYS_TOKEN_EXOIRED::令牌过期 错误=-
+2026-09-08 09:34:11 [INFO] 会话已刷新(来源:浏览器扩展): secret=tMrw7DZ7MZzkt0fG, cookie合计=40个, 含_m_h5_tk=True | 扩展侧诊断: h5api请求=58(带密钥0), offerlist请求=4(带密钥0)
+2026-09-08 09:34:11 [INFO]   offerlist样例: 带密钥=False 头名=['sec-ch-ua-platform', 'User-Agent', 'sec-ch-ua', 'sec-ch-ua-mobile', 'Accept'] URL=https://h5api.m.1688.com/h5/mtop.1688.pc.plugin.shop.offerlist.query/1.1/?jsv=2.7.2&appKey=12574478&t=1788831008235&sign=717ae841ce73dd915953fa3c5843825f&dataType=json&api=mtop.1688.pc.plugin.shop.offerList.query&v=1.1&type=originaljson&data=%7B%22memberId%22%3A%22b2b-319033927380e11%22%2C%22sortType%22%3A%22wangpu_score%22%2C%22pageNum%22%3A1%2C%22pageSize%22%3A300%7D
+2026-09-08 09:34:11 [INFO]   offerlist样例: 带密钥=False 头名=['User-Agent', 'accept'] URL=https://h5api.m.1688.com/h5/mtop.1688.pc.plugin.shop.offerlist.query/1.1/?jsv=2.7.2&appKey=12574478&t=1788831014421&sign=7fbe8a1dd28d94dc4c29f548a906a253&dataType=json&api=mtop.1688.pc.plugin.shop.offerList.query&v=1.1&type=originaljson&data=%7B%22memberId%22%3A%22b2b-319033927380e11%22%2C%22sortType%22%3A%22wangpu_score%22%2C%22pageNum%22%3A1%2C%22pageSize%22%3A300%7D
+2026-09-08 09:34:11 [INFO]   offerlist样例: 带密钥=False 头名=['sec-ch-ua-platform', 'User-Agent', 'sec-ch-ua', 'sec-ch-ua-mobile', 'Accept'] URL=https://h5api.m.1688.com/h5/mtop.1688.pc.plugin.shop.offerlist.query/1.1/?jsv=2.7.2&appKey=12574478&t=1788831014499&sign=b4b7b59c05df2d066316acb1a964060c&dataType=json&api=mtop.1688.pc.plugin.shop.offerList.query&v=1.1&type=originaljson&data=%7B%22memberId%22%3A%22b2b-319033927380e11%22%2C%22sortType%22%3A%22wangpu_score%22%2C%22pageNum%22%3A1%2C%22pageSize%22%3A300%7D
+2026-09-08 09:34:11 [INFO]   [CDP] CDP 已附加到标签 1648490438 (3分钟后自动解除)
+2026-09-08 09:34:11 [INFO]   [CDP] 疑似插件后端请求: https://g.alicdn.com/odt/web-based/2.3.5/??fmd.js,legacy.js,@ali/lib-mtop.js,react.js,antd.js,lodash.js,react-dom.js,@alife/csrf-token.js,@ant-design/icons.js,immer.js,query-string.js,classnames.js,ax
+2026-09-08 09:34:11 [INFO]   [CDP] plugin接口请求: https://h5api.m.1688.com/h5/mtop.1688.pc.plugin.od.sepc.query/1.0/?jsv=2.7.2&appKey=12574478&t=1788831238962&sign=a52ca4ff7ca5c4d2c7497ea05e9a5e5f&dataType=json&api=mtop.1688.pc.plugin.od.sepc.query&v=1.0&type=originaljson&data=%7B%22offerId%22%3A%22951308633342%22%7D
+2026-09-08 09:34:11 [INFO]   [CDP] 疑似插件后端请求: https://gobuy.1688.com/engine/api/engine/launch/execute?data=%7B%22strategyLocations%22%3A%5B%7B%22flowId%22%3A%22flow_c951779e1%22%2C%22strategyBizCode%22%3A%22STB_b77f811e1%22%7D%2C%7B%22flowId%22%3
+2026-09-08 09:34:11 [INFO]   [CDP] 后端响应体: flow_0gxalb_callback({"headers":{"EagleEye-TraceId":"2150461017888312391345185e0e1a"},"httpStatusCode":200,"model":{"debuger":{"debugEvents":[],"openDebug":false}},"success":true})
+2026-09-08 09:34:11 [INFO]   [CDP] plugin接口响应: {"api":"mtop.1688.pc.plugin.od.sepc.query","data":{"attributesToSpecIdMap":{"圆角反光条节节收-茉莉蜜桃":"2da0d5c69c52331cb5294160b505b38d","圆角反光条节节收-抹茶牛乳":"fb7f87dbf7c0ef9ba0b90f3353d7ebe4","圆角反光条节节收-蜜桃乌龙":"081e233776607586f62bd3405440dc04","圆角反光条节节收-冰岛乌龙":"f072b2ce24c72922d6a6eeb9be1ace93","圆角粉边手动-
+2026-09-08 09:34:11 [INFO]   [CDP] 疑似插件后端请求: https://umdc.1688.com/repWd.json?e=2072&sv=208&pv=234&pn=detail.1688.com&biz=7&bx-umidtoken=T2gA4xkF7aP2nMmy2K5dgTA3QhqSQrTwpX6zgpf9xHeV4xgTSjbDS_yPEumtgLWT2gQ=&tid=pWva9V2-LpJygTuP_qRqbkH4b-p1DcbJuo7
+2026-09-08 09:34:11 [INFO]   [CDP] 后端响应体: {"ck":"9c012a61116f649d1833c180949d3884","dt":"WCzN4/glEKpPxw9wnG2AVwwlixCinHDJ/GwOjBU9CyNZ28GrFK8nyVsnhOkJCz/2gB4EWgn3rc0O248fxMETuSGAfH1fJ25KZ9SbSwN4GrK6jTLunClwMOG8dVmMc9i8KEvOQdti1f2TjwTbx965z4MBd7hvZewyVLc06kO1C1VchoyCZG9jHKk9yqIirCO1IgUx01EQxnt
+2026-09-08 09:34:11 [INFO]   [CDP] CDP 已附加到标签 1648490461 (3分钟后自动解除)
+2026-09-08 09:34:11 [INFO]   [CDP] 疑似插件后端请求: https://g.alicdn.com/odt/web-based/2.3.5/??fmd.js,legacy.js,@ali/lib-mtop.js,react.js,antd.js,lodash.js,react-dom.js,@alife/csrf-token.js,@ant-design/icons.js,immer.js,query-string.js,classnames.js,ax
+2026-09-08 09:34:11 [INFO]   [CDP] 疑似插件后端请求: https://gobuy.1688.com/engine/api/engine/launch/execute?data=%7B%22strategyLocations%22%3A%5B%7B%22flowId%22%3A%22flow_c951779e1%22%2C%22strategyBizCode%22%3A%22STB_b77f811e1%22%7D%2C%7B%22flowId%22%3
+2026-09-08 09:34:11 [INFO]   [CDP] 后端响应体: flow_ugrhev_callback({"headers":{"EagleEye-TraceId":"2150461017888312494995789e0e1a"},"httpStatusCode":200,"model":{"debuger":{"debugEvents":[],"openDebug":false}},"success":true})
+2026-09-08 09:34:11 [INFO]   [CDP] plugin接口请求: https://h5api.m.1688.com/h5/mtop.1688.pc.plugin.user.login.get/1.0/?jsv=2.7.2&appKey=12574478&t=1788831251730&sign=77e600d11c621f27740fcdafc740f549&dataType=json&api=mtop.1688.pc.plugin.user.login.get&v=1.0&type=originaljson&data=%7B%7D
+2026-09-08 09:34:11 [INFO]   [CDP] plugin接口响应: {"api":"mtop.1688.pc.plugin.user.login.get","data":{"isLogin":"true","loginId":"tb7763084704","userId":"2214552161118"},"ret":["SUCCESS::调用成功"],"traceId":"2150431417888312518035067e1201","v":"1.0"}
+2026-09-08 09:34:12 [WARNING] 巡检失败(直连): 状态=FAIL_SYS_TOKEN_EXOIRED::令牌过期 错误=-
+2026-09-08 09:34:51 [INFO] 会话已刷新(来源:浏览器扩展): secret=tMrw7DZ7MZzkt0fG, cookie合计=40个, 含_m_h5_tk=True | 扩展侧诊断: h5api请求=85(带密钥0), offerlist请求=4(带密钥0)
+2026-09-08 09:34:51 [INFO]   offerlist样例: 带密钥=False 头名=['sec-ch-ua-platform', 'User-Agent', 'sec-ch-ua', 'sec-ch-ua-mobile', 'Accept'] URL=https://h5api.m.1688.com/h5/mtop.1688.pc.plugin.shop.offerlist.query/1.1/?jsv=2.7.2&appKey=12574478&t=1788831008235&sign=717ae841ce73dd915953fa3c5843825f&dataType=json&api=mtop.1688.pc.plugin.shop.offerList.query&v=1.1&type=originaljson&data=%7B%22memberId%22%3A%22b2b-319033927380e11%22%2C%22sortType%22%3A%22wangpu_score%22%2C%22pageNum%22%3A1%2C%22pageSize%22%3A300%7D
+2026-09-08 09:34:51 [INFO]   offerlist样例: 带密钥=False 头名=['User-Agent', 'accept'] URL=https://h5api.m.1688.com/h5/mtop.1688.pc.plugin.shop.offerlist.query/1.1/?jsv=2.7.2&appKey=12574478&t=1788831014421&sign=7fbe8a1dd28d94dc4c29f548a906a253&dataType=json&api=mtop.1688.pc.plugin.shop.offerList.query&v=1.1&type=originaljson&data=%7B%22memberId%22%3A%22b2b-319033927380e11%22%2C%22sortType%22%3A%22wangpu_score%22%2C%22pageNum%22%3A1%2C%22pageSize%22%3A300%7D
+2026-09-08 09:34:51 [INFO]   offerlist样例: 带密钥=False 头名=['sec-ch-ua-platform', 'User-Agent', 'sec-ch-ua', 'sec-ch-ua-mobile', 'Accept'] URL=https://h5api.m.1688.com/h5/mtop.1688.pc.plugin.shop.offerlist.query/1.1/?jsv=2.7.2&appKey=12574478&t=1788831014499&sign=b4b7b59c05df2d066316acb1a964060c&dataType=json&api=mtop.1688.pc.plugin.shop.offerList.query&v=1.1&type=originaljson&data=%7B%22memberId%22%3A%22b2b-319033927380e11%22%2C%22sortType%22%3A%22wangpu_score%22%2C%22pageNum%22%3A1%2C%22pageSize%22%3A300%7D
+2026-09-08 09:34:51 [INFO]   [CDP] 后端响应体: flow_ugrhev_callback({"headers":{"EagleEye-TraceId":"2150461017888312494995789e0e1a"},"httpStatusCode":200,"model":{"debuger":{"debugEvents":[],"openDebug":false}},"success":true})
+2026-09-08 09:34:51 [INFO]   [CDP] plugin接口请求: https://h5api.m.1688.com/h5/mtop.1688.pc.plugin.user.login.get/1.0/?jsv=2.7.2&appKey=12574478&t=1788831251730&sign=77e600d11c621f27740fcdafc740f549&dataType=json&api=mtop.1688.pc.plugin.user.login.get&v=1.0&type=originaljson&data=%7B%7D
+2026-09-08 09:34:51 [INFO]   [CDP] plugin接口响应: {"api":"mtop.1688.pc.plugin.user.login.get","data":{"isLogin":"true","loginId":"tb7763084704","userId":"2214552161118"},"ret":["SUCCESS::调用成功"],"traceId":"2150431417888312518035067e1201","v":"1.0"}
+2026-09-08 09:34:51 [INFO]   [CDP] offerlist 无密钥头 | Referer=- | 头名: Accept,Access-Control-Request-Headers,Access-Control-Request-Method,Origin,Sec-Fetch-Mode,User-Agent
+2026-09-08 09:34:51 [INFO]   [CDP] plugin接口请求: https://h5api.m.1688.com/h5/mtop.1688.pc.plugin.user.login.get/1.0/?jsv=2.7.2&appKey=12574478&t=1788831263414&sign=f81f600cb4693f7783502a944acde734&dataType=json&api=mtop.1688.pc.plugin.user.login.get&v=1.0&type=originaljson&data=%7B%7D
+2026-09-08 09:34:51 [INFO]   [CDP] 疑似插件后端请求: https://ai-pilot.cn-shanghai.log.aliyuncs.com/logstores/extension-log/track.gif?APIVersion=0.6.0&type=metrics&target=encrypt&success=true&timing=1.1000000089406967&env=production&from=iframe-export-go
+2026-09-08 09:34:51 [INFO]   [CDP] offerlist 无密钥头 | Referer=- | 头名: Accept,Access-Control-Request-Headers,Access-Control-Request-Method,Origin,Sec-Fetch-Mode,User-Agent
+2026-09-08 09:34:51 [INFO]   [CDP] 插件 offerlist 响应成功, 商品 300 条, 已转发本机程序
+2026-09-08 09:34:51 [INFO]   [CDP] 疑似插件后端请求: https://umdc.1688.com/repWd.json?e=2072&sv=208&pv=234&pn=detail.1688.com&biz=7&bx-umidtoken=T2gA4xkF7aP2nMmy2K5dgTA3QhqSQrTwpX6zgpf9xHeV4xgTSjbDS_yPEumtgLWT2gQ=&tid=pWva9V2-LpJygTuP_qRqbkH4b-p1DcbJuo7
+2026-09-08 09:34:51 [INFO]   [CDP] 后端响应体: {"ck":"98d55433650544e17c47fe8a5b72e0a3","dt":"WCzN4/glEKpPxw9wnG2AVwwlixCinHDJ/GwOjBU9CyNZ28GrFK8nyVsnhOkJCz/2gB4EWgn3rc0O248fxMETuSGAfH1fJ25KZ9SbSwN4GrK6jTLunClwMOG8dVmMc9i8KEvOQdti1f2TjwTbx965z4MBd7hvZewyVLc06kO1C1Wtxp8RDLwXKXXBqOh7clewv4tFxkdpjwb
+2026-09-08 09:34:51 [INFO]   [CDP] 疑似插件后端请求: https://gobuy.1688.com/engine/api/engine/launch/execute?data=%7B%22strategyLocations%22%3A%5B%7B%22flowId%22%3A%22flow_c951779e1%22%2C%22strategyBizCode%22%3A%22STB_b77f811e1%22%7D%2C%7B%22flowId%22%3
+2026-09-08 09:34:51 [INFO]   [CDP] 后端响应体: flow_uowarn_callback({"headers":{"EagleEye-TraceId":"2150461017888312692397000e0e1a"},"httpStatusCode":200,"model":{"debuger":{"debugEvents":[],"openDebug":false}},"success":true})
+2026-09-08 09:34:51 [INFO]   [CDP] 疑似插件后端请求: https://hd.mmstat.com/amedia.videox.heartbeat?gmkey=OTHER&gokey=appName%3DEdge%26appVersion%3D152.0.0.0%26architecture%3Damd64%26businessToken%3Dunknown%26clientIP%3D%26containerType%3DWebview%26coreN
+2026-09-08 09:34:51 [INFO]   [CDP] 后端响应体: R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==
+2026-09-08 09:34:52 [INFO] 巡检成功(扩展转发): 商品 300 条, 本轮变化 600 条
+2026-09-08 09:34:52 [INFO]   变化: [下架/移除] 1064635458687 ossus 法式碎花太阳伞黑胶防晒防紫外线遮阳伞韩系晴雨伞两用女
+2026-09-08 09:34:52 [INFO]   变化: [下架/移除] 951308633342 圆角雨伞定制女晴雨两用防晒防紫外线全自动便携小巧折叠太阳伞
+2026-09-08 09:34:52 [INFO]   变化: [下架/移除] 1064956798023 蓝格子 实物敲美～夏日遮阳晴雨两用黑胶防晒手动三折太阳伞
+2026-09-08 09:34:52 [INFO]   变化: [下架/移除] 805433600066 长柄伞复古条纹雨伞女晴雨两用小巧便携自动防晒紫外线遮阳太阳伞
+2026-09-08 09:34:52 [INFO]   变化: [下架/移除] 893742685723 遮阳防晒伞商务批发雨伞定制自动24骨雨伞折叠伞高级感晴雨两用伞
+2026-09-08 09:34:52 [INFO]   变化: [下架/移除] 684483280791 现货批发腰果花雨伞女防晒自动太阳伞晴雨两用折叠黑胶遮阳伞禁欲
+2026-09-08 09:34:52 [INFO]   变化: [下架/移除] 934466475044 优雅弯钩油画系锦绣花女自动三折叠黑胶防晒晴雨便携两用雨伞
+2026-09-08 09:34:52 [INFO]   变化: [下架/移除] 1065778304719 防回弹全自动折叠晴雨两用彩胶防晒太阳伞防紫外线女节节收遮阳伞
+2026-09-08 09:34:52 [INFO]   变化: [下架/移除] 898507115782 高定彩胶16骨太阳伞加大抗风彩胶防晒防紫外线晴雨两用折叠遮阳伞
+2026-09-08 09:34:52 [INFO]   变化: [下架/移除] 821839447230 超轻迷你扁六折雨伞定制遮阳伞黑胶防晒便携口袋太阳伞批发晴雨伞
+2026-09-08 09:34:52 [INFO]   变化: [下架/移除] 1071088443715 全自动环扣雨伞男大号加大加固抗风学生上学女晴雨两用便携防晒伞
+2026-09-08 09:34:52 [INFO]   变化: [下架/移除] 719557026670 浪漫法式雨伞自动女晴雨两用黑白接边小众防晒防紫外线遮阳伞文艺
+2026-09-08 09:34:52 [INFO]   变化: [下架/移除] 826806386247 ins简约格子太阳伞防晒防紫外线遮阳伞折叠雨伞女晴雨两用自动伞
+2026-09-08 09:34:52 [INFO]   变化: [下架/移除] 794377635363 全自动雨伞女生高颜值晴雨两用加固太阳伞防晒防紫外线遮阳伞学生
+2026-09-08 09:34:52 [INFO]   变化: [下架/移除] 916741725711 西卡全自动雨伞可爱折叠两用防晒遮阳伞紫外线晴雨太阳伞学生
+2026-09-08 09:34:52 [INFO]   变化: [下架/移除] 917115846866 星星雨伞ins紫外线全自动折叠防晒太阳伞晴雨两用遮阳伞便携
+2026-09-08 09:34:52 [INFO]   变化: [下架/移除] 903673883899 海盐蓝渐变雨伞太阳伞晴雨两用黑胶防晒防紫外线遮阳伞自动女ins-
+2026-09-08 09:34:52 [INFO]   变化: [下架/移除] 719752391115 美式复古条纹高颜值雨伞女折叠晴雨两用防晒紫外线抗风太阳伞ins
+2026-09-08 09:34:52 [INFO]   变化: [下架/移除] 944122799749 韩系圆角雨伞女晴雨两用防晒防紫外线全自动便携小巧折叠太阳伞
+2026-09-08 09:34:52 [INFO]   变化: [下架/移除] 1065975273358 韩系可爱遮阳伞卡通雨伞女晴雨两用防晒伞黑胶自动太阳伞折叠便携
+2026-09-08 09:34:52 [INFO]   变化: [下架/移除] 706180332241 艾丽丝复古自动雨伞女晴雨两用高颜值小众遮阳防晒防紫外线太阳伞
+2026-09-08 09:34:52 [INFO]   变化: [下架/移除] 1065663391911 小韩女款白波点~夏天防晒晴雨两用特别的黑白折叠伞遮阳黑胶雨伞
+2026-09-08 09:34:52 [INFO]   变化: [下架/移除] 838643825806 纯色简约美系折叠伞晴雨两用防晒防紫外线太阳伞女时尚便携遮阳伞
+2026-09-08 09:34:52 [INFO]   变化: [下架/移除] 687346199909 高颜值全自动雨伞晴雨两用女高级感复古遮阳防晒防紫外线太阳伞
+2026-09-08 09:34:52 [INFO]   变化: [下架/移除] 1067721016304 新款节节收雨伞八骨升级晴雨两用全自动加厚圆角防晒伞太阳伞学生
+2026-09-08 09:34:52 [INFO]   变化: [下架/移除] 745239194717 msho夏日小清新小碎花雨伞女晴雨两用小巧便携防晒防紫外线太阳伞
+2026-09-08 09:34:52 [INFO]   变化: [下架/移除] 945721548760 奶油泼墨雨伞太阳伞晴雨两用高颜值黑胶防紫外线遮阳伞女ins
+2026-09-08 09:34:52 [INFO]   变化: [下架/移除] 1058811284824 黑胶防晒便携口袋太阳伞批发晴雨伞超轻迷你卡片雨伞定制遮阳伞
+2026-09-08 09:34:52 [INFO]   变化: [下架/移除] 687054642880 法式复古雨伞晴雨两用女高颜值小众夏遮阳伞防晒简约高级感太阳伞
+2026-09-08 09:34:52 [INFO]   变化: [下架/移除] 1070234410505 小清新波点防晒雨伞女晴雨两用黑胶太阳伞防紫外线遮阳折叠伞便携
+2026-09-08 09:34:52 [INFO]   变化: [下架/移除] 917540630786 蓝色渐变狗雨伞自动太阳伞八骨晴雨两用折叠可爱便携防晒防紫外线
+2026-09-08 09:34:52 [INFO]   变化: [下架/移除] 1047256194297 全自动雨伞女太阳伞防晒防紫外线学生卡通可爱晴雨两用折叠遮阳伞
+2026-09-08 09:34:52 [INFO]   变化: [下架/移除] 1022572658619 苹果猫全自动雨伞可爱学生女晴雨两用黑胶折叠防晒防回弹雨伞遮阳
+2026-09-08 09:34:52 [INFO]   变化: [下架/移除] 1066606216294 Rosy高颜值晴雨伞防晒防紫外线太阳伞两用女弯钩手动加大折叠遮阳
+2026-09-08 09:34:52 [INFO]   变化: [下架/移除] 1050962971877 日系可爱猫咪太阳伞女黑胶晴雨伞两用ins防晒全自动折叠遮阳伞男
+2026-09-08 09:34:52 [INFO]   变化: [下架/移除] 703654189240 高级感法式复古雨伞女晴雨两用全自动黑胶遮阳伞ins风防晒太阳伞
+2026-09-08 09:34:52 [INFO]   变化: [下架/移除] 980862835073 奶油泼墨全自动ins雨伞晴雨两用太阳伞防晒紫外线黑胶折叠遮阳伞
+2026-09-08 09:34:52 [INFO]   变化: [下架/移除] 714820554311 msho草间弥生～波点系自动晴雨两用折叠遮阳太阳黑胶雨伞女伞防晒
+2026-09-08 09:34:52 [INFO]   变化: [下架/移除] 715017943800 奶油兔子雨伞女自动折叠森系遮阳伞晴雨两用黑胶防晒太阳伞少女心
+2026-09-08 09:34:52 [INFO]   变化: [下架/移除] 1061852502560 一个苹果晴雨伞两用太阳伞防晒紫外线黑胶全自动折叠遮阳伞雨伞女
+2026-09-08 09:34:52 [INFO]   变化: [下架/移除] 1064181642738 复古弯钩雨伞女晴雨两用黑胶全自动遮阳伞防晒防紫外线折叠太阳伞
+2026-09-08 09:34:52 [INFO]   变化: [下架/移除] 1053620252333 emo小狗雨伞女晴雨两用软萌治愈系防晒防紫外线情侣全自动太阳伞
+2026-09-08 09:34:52 [INFO]   变化: [下架/移除] 1064149575416 高级感复古条纹雨伞女晴雨两用黑胶防晒防紫外线太阳伞自动遮阳伞
+2026-09-08 09:34:52 [INFO]   变化: [下架/移除] 715023987012 海洋球彩色波波_波点防晒晴雨两用伞遮阳伞黑胶雨伞太阳伞折叠-
+2026-09-08 09:34:52 [INFO]   变化: [下架/移除] 956272873283 新款圆角自动节节收防晒防紫外线彩胶太阳伞折叠晴雨两用三折伞
+2026-09-08 09:34:52 [INFO]   变化: [下架/移除] 768855981717 绿野仙踪高颜值全自动晴雨两用遮阳伞防晒黑胶紫外线折叠太阳伞
+2026-09-08 09:34:52 [INFO]   变化: [下架/移除] 1064195158066 高颜值可爱全自动卡通折叠伞防晒防紫外晴雨两用黑胶遮阳伞便携伞
+2026-09-08 09:34:52 [INFO]   变化: [下架/移除] 944565058709 向日葵复古小香风太阳伞遮阳伞晴雨伞两用防晒防紫外线折叠三折伞
+2026-09-08 09:34:52 [INFO]   变化: [下架/移除] 686285322195 Haru 复古小香风ins全自动晴雨伞两用法式折叠太阳伞防晒遮阳伞女
+2026-09-08 09:34:52 [INFO]   变化: [下架/移除] 899237033054 16骨雨伞加大加厚加固太阳伞女防晒防紫外双人抗风结实折叠遮阳伞
+2026-09-08 09:34:52 [INFO] 已处理扩展转发数据
+2026-09-08 09:35:06 [INFO] 会话已刷新(来源:浏览器扩展): secret=tMrw7DZ7MZzkt0fG, cookie合计=40个, 含_m_h5_tk=True | 扩展侧诊断: h5api请求=86(带密钥0), offerlist请求=4(带密钥0)
+2026-09-08 09:35:06 [INFO]   offerlist样例: 带密钥=False 头名=['sec-ch-ua-platform', 'User-Agent', 'sec-ch-ua', 'sec-ch-ua-mobile', 'Accept'] URL=https://h5api.m.1688.com/h5/mtop.1688.pc.plugin.shop.offerlist.query/1.1/?jsv=2.7.2&appKey=12574478&t=1788831008235&sign=717ae841ce73dd915953fa3c5843825f&dataType=json&api=mtop.1688.pc.plugin.shop.offerList.query&v=1.1&type=originaljson&data=%7B%22memberId%22%3A%22b2b-319033927380e11%22%2C%22sortType%22%3A%22wangpu_score%22%2C%22pageNum%22%3A1%2C%22pageSize%22%3A300%7D
+2026-09-08 09:35:06 [INFO]   offerlist样例: 带密钥=False 头名=['User-Agent', 'accept'] URL=https://h5api.m.1688.com/h5/mtop.1688.pc.plugin.shop.offerlist.query/1.1/?jsv=2.7.2&appKey=12574478&t=1788831014421&sign=7fbe8a1dd28d94dc4c29f548a906a253&dataType=json&api=mtop.1688.pc.plugin.shop.offerList.query&v=1.1&type=originaljson&data=%7B%22memberId%22%3A%22b2b-319033927380e11%22%2C%22sortType%22%3A%22wangpu_score%22%2C%22pageNum%22%3A1%2C%22pageSize%22%3A300%7D
+2026-09-08 09:35:06 [INFO]   offerlist样例: 带密钥=False 头名=['sec-ch-ua-platform', 'User-Agent', 'sec-ch-ua', 'sec-ch-ua-mobile', 'Accept'] URL=https://h5api.m.1688.com/h5/mtop.1688.pc.plugin.shop.offerlist.query/1.1/?jsv=2.7.2&appKey=12574478&t=1788831014499&sign=b4b7b59c05df2d066316acb1a964060c&dataType=json&api=mtop.1688.pc.plugin.shop.offerList.query&v=1.1&type=originaljson&data=%7B%22memberId%22%3A%22b2b-319033927380e11%22%2C%22sortType%22%3A%22wangpu_score%22%2C%22pageNum%22%3A1%2C%22pageSize%22%3A300%7D
+2026-09-08 09:35:06 [INFO]   [CDP] 疑似插件后端请求: https://ai-pilot.cn-shanghai.log.aliyuncs.com/logstores/extension-log/track.gif?APIVersion=0.6.0&type=metrics&target=encrypt&success=true&timing=1.1000000089406967&env=production&from=iframe-export-go
+2026-09-08 09:35:06 [INFO]   [CDP] offerlist 无密钥头 | Referer=- | 头名: Accept,Access-Control-Request-Headers,Access-Control-Request-Method,Origin,Sec-Fetch-Mode,User-Agent
+2026-09-08 09:35:06 [INFO]   [CDP] 插件 offerlist 响应成功, 商品 300 条, 已转发本机程序
+2026-09-08 09:35:06 [INFO]   [CDP] 疑似插件后端请求: https://umdc.1688.com/repWd.json?e=2072&sv=208&pv=234&pn=detail.1688.com&biz=7&bx-umidtoken=T2gA4xkF7aP2nMmy2K5dgTA3QhqSQrTwpX6zgpf9xHeV4xgTSjbDS_yPEumtgLWT2gQ=&tid=pWva9V2-LpJygTuP_qRqbkH4b-p1DcbJuo7
+2026-09-08 09:35:06 [INFO]   [CDP] 后端响应体: {"ck":"98d55433650544e17c47fe8a5b72e0a3","dt":"WCzN4/glEKpPxw9wnG2AVwwlixCinHDJ/GwOjBU9CyNZ28GrFK8nyVsnhOkJCz/2gB4EWgn3rc0O248fxMETuSGAfH1fJ25KZ9SbSwN4GrK6jTLunClwMOG8dVmMc9i8KEvOQdti1f2TjwTbx965z4MBd7hvZewyVLc06kO1C1Wtxp8RDLwXKXXBqOh7clewv4tFxkdpjwb
+2026-09-08 09:35:06 [INFO]   [CDP] 疑似插件后端请求: https://gobuy.1688.com/engine/api/engine/launch/execute?data=%7B%22strategyLocations%22%3A%5B%7B%22flowId%22%3A%22flow_c951779e1%22%2C%22strategyBizCode%22%3A%22STB_b77f811e1%22%7D%2C%7B%22flowId%22%3
+2026-09-08 09:35:06 [INFO]   [CDP] 后端响应体: flow_uowarn_callback({"headers":{"EagleEye-TraceId":"2150461017888312692397000e0e1a"},"httpStatusCode":200,"model":{"debuger":{"debugEvents":[],"openDebug":false}},"success":true})
+2026-09-08 09:35:06 [INFO]   [CDP] 疑似插件后端请求: https://hd.mmstat.com/amedia.videox.heartbeat?gmkey=OTHER&gokey=appName%3DEdge%26appVersion%3D152.0.0.0%26architecture%3Damd64%26businessToken%3Dunknown%26clientIP%3D%26containerType%3DWebview%26coreN
+2026-09-08 09:35:06 [INFO]   [CDP] 后端响应体: R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==
+2026-09-08 09:35:06 [INFO]   [CDP] CDP 已附加到标签 1648490469 (3分钟后自动解除)
+2026-09-08 09:35:06 [INFO]   [CDP] 疑似插件后端请求: https://g.alicdn.com/odt/web-based/2.3.5/??fmd.js,legacy.js,@ali/lib-mtop.js,react.js,antd.js,lodash.js,react-dom.js,@alife/csrf-token.js,@ant-design/icons.js,immer.js,query-string.js,classnames.js,ax
+2026-09-08 09:35:06 [INFO]   [CDP] 疑似插件后端请求: https://gobuy.1688.com/engine/api/engine/launch/execute?data=%7B%22strategyLocations%22%3A%5B%7B%22flowId%22%3A%22flow_c951779e1%22%2C%22strategyBizCode%22%3A%22STB_b77f811e1%22%7D%2C%7B%22flowId%22%3
+2026-09-08 09:35:06 [INFO]   [CDP] 后端响应体: flow_rcjfz7_callback({"headers":{"EagleEye-TraceId":"2150461017888312921748396e0e1a"},"httpStatusCode":200,"model":{"debuger":{"debugEvents":[],"openDebug":false}},"success":true})
+2026-09-08 09:35:06 [INFO]   [CDP] plugin接口请求: https://h5api.m.1688.com/h5/mtop.1688.pc.plugin.user.login.get/1.0/?jsv=2.7.2&appKey=12574478&t=1788831306688&sign=6f101c4c35bc66f1b13a7777422af708&dataType=json&api=mtop.1688.pc.plugin.user.login.get&v=1.0&type=originaljson&data=%7B%7D
+2026-09-08 09:35:07 [WARNING] 巡检失败(直连): 状态=FAIL_SYS_TOKEN_EXOIRED::令牌过期 错误=-
+2026-09-08 09:35:14 [INFO] 会话已刷新(来源:浏览器扩展): secret=tMrw7DZ7MZzkt0fG, cookie合计=40个, 含_m_h5_tk=True | 扩展侧诊断: h5api请求=86(带密钥0), offerlist请求=4(带密钥0)
+2026-09-08 09:35:14 [INFO]   offerlist样例: 带密钥=False 头名=['sec-ch-ua-platform', 'User-Agent', 'sec-ch-ua', 'sec-ch-ua-mobile', 'Accept'] URL=https://h5api.m.1688.com/h5/mtop.1688.pc.plugin.shop.offerlist.query/1.1/?jsv=2.7.2&appKey=12574478&t=1788831008235&sign=717ae841ce73dd915953fa3c5843825f&dataType=json&api=mtop.1688.pc.plugin.shop.offerList.query&v=1.1&type=originaljson&data=%7B%22memberId%22%3A%22b2b-319033927380e11%22%2C%22sortType%22%3A%22wangpu_score%22%2C%22pageNum%22%3A1%2C%22pageSize%22%3A300%7D
+2026-09-08 09:35:14 [INFO]   offerlist样例: 带密钥=False 头名=['User-Agent', 'accept'] URL=https://h5api.m.1688.com/h5/mtop.1688.pc.plugin.shop.offerlist.query/1.1/?jsv=2.7.2&appKey=12574478&t=1788831014421&sign=7fbe8a1dd28d94dc4c29f548a906a253&dataType=json&api=mtop.1688.pc.plugin.shop.offerList.query&v=1.1&type=originaljson&data=%7B%22memberId%22%3A%22b2b-319033927380e11%22%2C%22sortType%22%3A%22wangpu_score%22%2C%22pageNum%22%3A1%2C%22pageSize%22%3A300%7D
+2026-09-08 09:35:14 [INFO]   offerlist样例: 带密钥=False 头名=['sec-ch-ua-platform', 'User-Agent', 'sec-ch-ua', 'sec-ch-ua-mobile', 'Accept'] URL=https://h5api.m.1688.com/h5/mtop.1688.pc.plugin.shop.offerlist.query/1.1/?jsv=2.7.2&appKey=12574478&t=1788831014499&sign=b4b7b59c05df2d066316acb1a964060c&dataType=json&api=mtop.1688.pc.plugin.shop.offerList.query&v=1.1&type=originaljson&data=%7B%22memberId%22%3A%22b2b-319033927380e11%22%2C%22sortType%22%3A%22wangpu_score%22%2C%22pageNum%22%3A1%2C%22pageSize%22%3A300%7D
+2026-09-08 09:35:14 [INFO]   [CDP] 疑似插件后端请求: https://umdc.1688.com/repWd.json?e=2072&sv=208&pv=234&pn=detail.1688.com&biz=7&bx-umidtoken=T2gA4xkF7aP2nMmy2K5dgTA3QhqSQrTwpX6zgpf9xHeV4xgTSjbDS_yPEumtgLWT2gQ=&tid=pWva9V2-LpJygTuP_qRqbkH4b-p1DcbJuo7
+2026-09-08 09:35:14 [INFO]   [CDP] 后端响应体: {"ck":"98d55433650544e17c47fe8a5b72e0a3","dt":"WCzN4/glEKpPxw9wnG2AVwwlixCinHDJ/GwOjBU9CyNZ28GrFK8nyVsnhOkJCz/2gB4EWgn3rc0O248fxMETuSGAfH1fJ25KZ9SbSwN4GrK6jTLunClwMOG8dVmMc9i8KEvOQdti1f2TjwTbx965z4MBd7hvZewyVLc06kO1C1Wtxp8RDLwXKXXBqOh7clewv4tFxkdpjwb
+2026-09-08 09:35:14 [INFO]   [CDP] 疑似插件后端请求: https://gobuy.1688.com/engine/api/engine/launch/execute?data=%7B%22strategyLocations%22%3A%5B%7B%22flowId%22%3A%22flow_c951779e1%22%2C%22strategyBizCode%22%3A%22STB_b77f811e1%22%7D%2C%7B%22flowId%22%3
+2026-09-08 09:35:14 [INFO]   [CDP] 后端响应体: flow_uowarn_callback({"headers":{"EagleEye-TraceId":"2150461017888312692397000e0e1a"},"httpStatusCode":200,"model":{"debuger":{"debugEvents":[],"openDebug":false}},"success":true})
+2026-09-08 09:35:14 [INFO]   [CDP] 疑似插件后端请求: https://hd.mmstat.com/amedia.videox.heartbeat?gmkey=OTHER&gokey=appName%3DEdge%26appVersion%3D152.0.0.0%26architecture%3Damd64%26businessToken%3Dunknown%26clientIP%3D%26containerType%3DWebview%26coreN
+2026-09-08 09:35:14 [INFO]   [CDP] 后端响应体: R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==
+2026-09-08 09:35:14 [INFO]   [CDP] CDP 已附加到标签 1648490469 (3分钟后自动解除)
+2026-09-08 09:35:14 [INFO]   [CDP] 疑似插件后端请求: https://g.alicdn.com/odt/web-based/2.3.5/??fmd.js,legacy.js,@ali/lib-mtop.js,react.js,antd.js,lodash.js,react-dom.js,@alife/csrf-token.js,@ant-design/icons.js,immer.js,query-string.js,classnames.js,ax
+2026-09-08 09:35:14 [INFO]   [CDP] 疑似插件后端请求: https://gobuy.1688.com/engine/api/engine/launch/execute?data=%7B%22strategyLocations%22%3A%5B%7B%22flowId%22%3A%22flow_c951779e1%22%2C%22strategyBizCode%22%3A%22STB_b77f811e1%22%7D%2C%7B%22flowId%22%3
+2026-09-08 09:35:14 [INFO]   [CDP] 后端响应体: flow_rcjfz7_callback({"headers":{"EagleEye-TraceId":"2150461017888312921748396e0e1a"},"httpStatusCode":200,"model":{"debuger":{"debugEvents":[],"openDebug":false}},"success":true})
+2026-09-08 09:35:14 [INFO]   [CDP] plugin接口请求: https://h5api.m.1688.com/h5/mtop.1688.pc.plugin.user.login.get/1.0/?jsv=2.7.2&appKey=12574478&t=1788831306688&sign=6f101c4c35bc66f1b13a7777422af708&dataType=json&api=mtop.1688.pc.plugin.user.login.get&v=1.0&type=originaljson&data=%7B%7D
+2026-09-08 09:35:14 [INFO]   [CDP] offerlist 无密钥头 | Referer=- | 头名: Accept,Access-Control-Request-Headers,Access-Control-Request-Method,Origin,Sec-Fetch-Mode,User-Agent
+2026-09-08 09:35:14 [INFO]   [CDP] 疑似插件后端请求: https://hd.mmstat.com/amedia.videox.heartbeat?gmkey=OTHER&gokey=appName%3DEdge%26appVersion%3D152.0.0.0%26architecture%3Damd64%26businessToken%3Dunknown%26clientIP%3D%26containerType%3DWebview%26coreN
+2026-09-08 09:35:14 [INFO]   [CDP] 后端响应体: R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==
+2026-09-08 09:35:15 [WARNING] 巡检失败(直连): 状态=FAIL_SYS_TOKEN_EXOIRED::令牌过期 错误=-
