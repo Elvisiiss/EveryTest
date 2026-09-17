@@ -1,0 +1,1 @@
+- [LeetCode 每日1题布局](leetcode-layout.md) — 目录结构与文件命名规范（DDMM日期、序号_题号_题目名.txt、J序号.java、序号.py）

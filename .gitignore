@@ -7,7 +7,8 @@ __pycache__/
 .browser_profile/
 
 # Claude Code 本地配置
-.claude/
+#.claude/
+# 这个需要上传git
 
 # 脚本运行结果（由 fetch_offer_list_*.py 生成）
 bbb.txt
